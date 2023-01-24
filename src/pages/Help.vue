@@ -214,7 +214,7 @@
                     </h4>
                     <p class="text-lg text-gray-400">
                       Simply fill out a demo request form, select a package, and
-                      activate the mental health resource platform.
+                      activate the mental health resource platform. <a></a>
                     </p>
                   </li>
                   <li class="py-4">

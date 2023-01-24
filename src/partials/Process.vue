@@ -112,7 +112,12 @@
               <span class="text-gray-300">2</span>. Select A Package
             </h4>
             <p class="text-lg text-gray-400 text-center">
-              We have a variety of services that allow you to proactively improve the mental well being of students, staff, and members. 
+              We have a variety of services that allow you to proactively improve the mental well being of students, staff, and members. <a
+                class="text-mint-600 hover:text-mint-500 transition duration-150 ease-in-out"
+                href="/education"
+                target="_blank"
+                >Learn More.</a
+              >
             </p>
           </div>
 

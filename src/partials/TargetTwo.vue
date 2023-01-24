@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-12 md:pt-30 md:pb-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-0 md:pt-30 md:pb-20">
       <div class="py-12 md:py-20">
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+        <div class="max-w-3xl mx-auto text-center pb-0 md:pb-20">
           <h2 class="h2 font-playfair-display mb-3">
             Simplifying Mental Health Care Access
           </h2>
