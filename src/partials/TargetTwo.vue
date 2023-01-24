@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-0 md:pt-30 md:pb-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 pt-32 pb-0 md:pt-30">
       <div class="py-12 md:py-20">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-0 md:pb-20">
