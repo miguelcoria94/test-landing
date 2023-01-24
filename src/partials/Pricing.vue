@@ -87,7 +87,7 @@
                   <span class="text-5xl">{{ annual ? "449" : "499" }}</span>
                   <span>/mo</span>
                 </div> -->
-                <div class="text-white mb-6">
+                <div class="mb-6 text-green-400">
                   Start building your team and hire the most talented workers in
                   the world.
                 </div>
@@ -109,7 +109,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white">All Account Types</span>
+                  <span class="text-green-400">All Account Types</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -121,7 +121,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white">Resource Management</span>
+                  <span class="text-green-400">Resource Management</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -133,7 +133,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white">Appointment Synchronization</span>
+                  <span class="text-green-400">Appointment Synchronization</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -145,7 +145,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white">Mental Health Safety Tool </span>
+                  <span class="text-green-400">Mental Health Safety Tool </span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -157,7 +157,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white">Single Sign On (SSO) Integration</span>
+                  <span class="text-green-400">Single Sign On (SSO) Integration</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -169,7 +169,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white-900">Behavioral Health Content</span>
+                  <span class="text-green-400">Behavioral Health Content</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -181,7 +181,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-white-900">Email Notifications</span>
+                  <span class="text-green-400">Email Notifications</span>
                 </li>
               </ul>
             </div>
@@ -315,10 +315,10 @@
                   the world.
                 </div>
               </div>
-              <div class="font-playfair-display font-bold mb-4">
+              <!-- <div class="font-playfair-display font-bold mb-4">
                 Everything in Pro, plus:
-              </div>
-              <ul class="text-gray-900 space-y-3 grow">
+              </div> -->
+              <!-- <ul class="text-gray-900 space-y-3 grow">
                 <li class="flex items-center">
                   <svg
                     class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0"
@@ -367,7 +367,7 @@
                   </svg>
                   <span>Officia deserunt mollit anim</span>
                 </li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
