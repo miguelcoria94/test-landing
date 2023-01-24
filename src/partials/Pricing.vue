@@ -213,7 +213,7 @@
               </div>
               <div class="font-playfair-display font-gray-700 font-bold mb-4">
                 <span class="text-white">
-                  Everything in Basic, plus:
+                  Everything in Essentials, plus:
                 </span>
                 
               </div>
@@ -240,7 +240,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span>Consectetur adipiscing elit</span>
+                  <span>Calendar Integration</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -252,7 +252,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span>Excepteur sint occaecat cupidatat</span>
+                  <span>Smart Resource Library</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -264,7 +264,7 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span>Officia deserunt mollit anim</span>
+                  <span>Analytics & Trends</span>
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -276,7 +276,19 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span>Excepteur sint occaecat cupidatat</span>
+                  <span>Professional Activity Log </span>
+                </li>
+                <li class="flex items-center">
+                  <svg
+                    class="w-3 h-3 fill-current text-mint-500 mr-3 shrink-0"
+                    viewBox="0 0 12 12"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
+                    />
+                  </svg>
+                  <span>White Label</span>
                 </li>
               </ul>
             </div>
