@@ -46,7 +46,9 @@
           >
             <!-- Pricing table 1 -->
             <div
-              class="relative flex flex-col h-full p-6 rounded bg-mint-500"
+              class="relative flex flex-col h-full p-6 rounded bg-mint-500 drop-shadow-md
+
+"
               data-aos="fade-up"
               data-aos-delay="100"
             >
@@ -165,7 +167,9 @@
 
             <!-- Pricing table 2 -->
             <div
-              class="relative flex flex-col h-full p-6 rounded bg-green-500"
+              class="relative flex flex-col h-full p-6 rounded bg-green-500 drop-shadow-md
+
+"
               data-aos="fade-up"
             >
               <div class="mb-6">
@@ -269,7 +273,7 @@
 
             <!-- Pricing table 3 -->
             <div
-              class="relative flex flex-col h-full p-6 rounded bg-orange-500"
+              class="relative flex flex-col h-full p-6 rounded bg-orange-500 drop-shadow-md "
               data-aos="fade-up"
               data-aos-delay="100"
             >
