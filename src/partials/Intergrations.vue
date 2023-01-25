@@ -192,7 +192,7 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              TadHealth allows anyone verified on our network access to resources, prospective clients, and other opportunities.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas repellendus ea corporis atque dolores quo, dicta earum consequatur eaque est, unde rem doloremque repellat magni laudantium sint soluta enim facilis iusto quibusdam necessitatibus? Quidem expedita fuga recusandae adipisci quos.
             </p>
           </div>
         </div>
