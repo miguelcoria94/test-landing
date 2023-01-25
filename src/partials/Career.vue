@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="max-w-3xl mx-auto px-4 sm:px-6">
-      <div class="pb-12 md:pb-20">
+      <div class="pb-6 md:pb-6">
         <!-- Section header -->
         <h3 class="h4 mb-8">Open positions</h3>
 
