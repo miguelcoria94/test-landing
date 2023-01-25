@@ -26,6 +26,7 @@ import ProfessionalApp from './pages/ProfessionalApp.vue'
 import PrivateApp from './pages/PrivateApp.vue'
 import CaseStudies from './pages/CaseStudies.vue'
 import WhyTadHealth from "./pages/WhyTadHealth.vue"
+import Podcasts from "./pages/Podcasts.vue"
 
 const routerHistory = createWebHistory()
 
@@ -144,6 +145,10 @@ const router = createRouter({
     {
       path: "/whytadhealth",
       component: WhyTadHealth
+    },
+    {
+      path: "/podcasts",
+      component: Podcasts
     },
     {
       path: "/:pathMatch(.*)*",

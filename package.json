@@ -12,6 +12,7 @@
     "@vueuse/head": "^0.7.6",
     "aos": "^3.0.0-beta.6",
     "axios": "^0.27.2",
+    "swiper": "^8.4.6",
     "vue": "^3.2.20",
     "vue-recaptcha": "^2.0.2",
     "vue-router": "^4.0.12"

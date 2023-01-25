@@ -78,7 +78,7 @@
               </li>
               <li>
                 <router-link
-                  to="/"
+                  to="/podcasts"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
                   ><i class="las la-microphone header-icon"></i> Podcast</router-link
                 >
