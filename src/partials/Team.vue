@@ -3,7 +3,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-12 md:py-20 border-t border-gray-800">
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+        <div class="max-w-3xl mx-auto text-center pb-6 md:pb-6">
           <h2 class="h2 mb-4">Our passionate team</h2>
           <p class="text-xl text-gray-400">
             Strategic team of experts, professionals, and technology leaders

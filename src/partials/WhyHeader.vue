@@ -3,18 +3,7 @@
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
         <div class="pt-32 pb-12 md:pt-40 md:pb-20">
           <!-- Section header -->
-          <div class="max-w-3xl mx-auto text-center pb-12">
-            <h1 class="h1 mb-4" data-aos="fade-up">
-              Why Tadhealth?
-            </h1>
-            <p
-              class="text-xl text-gray-400"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              TadHealth allows anyone verified on our network access to resources, prospective clients, and other opportunities.
-            </p>
-          </div>
+          
   
           <!-- Pricing tables -->
           <div>
@@ -45,7 +34,7 @@
   
   
             <!-- Bottom infobox -->
-            <div
+            <!-- <div
               class="flex flex-col lg:flex-row justify-between items-center mt-12 lg:mt-6 lg:py-8 lg:border-t lg:border-b lg:border-gray-800"
             >
               <div
@@ -60,7 +49,7 @@
                   >Contact us</a
                 >
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

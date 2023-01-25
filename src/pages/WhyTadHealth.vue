@@ -13,7 +13,7 @@
       </div>
 
       <!-- Page sections -->
-      <WhyHeader />
+      <Intergrations />
       <Faqs />
       <Testimonials />
       <Cta />
@@ -34,6 +34,7 @@ import Faqs from '../partials/Faqs.vue'
 import Testimonials from '../partials/Testimonials.vue'
 import Cta from '../partials/Cta.vue'
 import Footer from '../partials/Footer.vue'
+import Intergrations from "../partials/Intergrations.vue"
 
 export default {
   name: 'Pricing',
@@ -45,6 +46,7 @@ export default {
     Testimonials,
     Cta,
     Footer,
+    Intergrations
   },
 };
 </script>
