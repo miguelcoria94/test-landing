@@ -1,8 +1,5 @@
 <template>
-  
   <section class="relative">
-
-    
     <div class="max-w-6xl mx-auto px-4 sm:px-6 pb-12 pt-0">
       <div class="pt-6 md:pt-12">
         <!-- Section header -->
@@ -14,18 +11,7 @@
 
         <!-- Pricing tables -->
         <div>
-          <div class="flex justify-center mb-6">
-          <router-link
-            class="btn text-white bg-gray-100 hover:bg-mint-600 group"
-            to="/schedule-call"
-          >
-            Take The Quiz <i class="las la-file-invoice  group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"></i>
-            <span
-              class="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
-            >
-            </span>
-          </router-link>
-        </div>
+          
           <!-- Pricing toggle -->
           <!-- <div class="flex justify-center max-w-[10rem] m-auto mb-8 lg:mb-14">
             <div class="relative flex w-full p-1 bg-gray-100 rounded-full">
@@ -68,7 +54,7 @@
                 <div
                   class="font-playfair-display text-green-500 text-xl font-bold mb-6"
                 >
-                Essentials
+                  Essentials
                 </div>
                 <!-- <div
                   class="font-playfair-display text-gray-900 font-bold inline-flex items-baseline mb-2"
@@ -83,10 +69,7 @@
                 </div>
               </div>
               <div class="font-playfair-display font-bold mb-4">
-                <span class="text-green-500">
-                  Features include:
-                </span>
-                
+                <span class="text-green-500"> Features include: </span>
               </div>
               <ul class="text-gray-900 space-y-3 grow">
                 <li class="flex items-center">
@@ -123,7 +106,9 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-green-400">Appointment Synchronization</span>
+                  <span class="text-green-400"
+                    >Appointment Synchronization</span
+                  >
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -147,7 +132,9 @@
                       d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
                     />
                   </svg>
-                  <span class="text-green-400">Single Sign On (SSO) Integration</span>
+                  <span class="text-green-400"
+                    >Single Sign On (SSO) Integration</span
+                  >
                 </li>
                 <li class="flex items-center">
                   <svg
@@ -195,17 +182,14 @@
                   <span>/mo</span>
                 </div> -->
                 <div class="text-gray-900 mb-6">
-                  
-                    Start building your team and hire the most talented workers in
+                  Start building your team and hire the most talented workers in
                   the world.
-                  
                 </div>
               </div>
               <div class="font-playfair-display font-gray-700 font-bold mb-4">
                 <span class="text-white">
                   Everything in Essentials, plus:
                 </span>
-                
               </div>
               <ul class="text-gray-900 space-y-3 grow">
                 <li class="flex items-center">
@@ -290,28 +274,24 @@
               data-aos-delay="100"
             >
               <div class="mb-6">
-                <div
-                  class="font-playfair-display text-xl font-bold mb-1"
-                >
-                <span >Enterprise</span>
-                  
+                <div class="font-playfair-display text-xl font-bold mb-1">
+                  <span>Enterprise</span>
                 </div>
                 <div
                   class="font-playfair-display font-bold inline-flex items-baseline mb-2"
                 >
                   <span class="text-3xl mt-2.5">Contact us</span>
                 </div>
-                <div class=" mb-6">
+                <div class="mb-6">
                   Start building your team and hire the most talented workers in
                   the world.
                 </div>
                 <a
-                class="text-gray-100 hover:text-gray-300 transition duration-150 ease-in-out underline"
-                href="/education"
-                target="_blank"
-                >Request a demo</a
-              >
-                
+                  class="text-gray-100 hover:text-gray-300 transition duration-150 ease-in-out underline"
+                  href="/request-demo"
+                  target="_blank"
+                  >Request a demo</a
+                >
               </div>
               <!-- <div class="font-playfair-display font-bold mb-4">
                 Everything in Pro, plus:
@@ -368,9 +348,27 @@
               </ul> -->
             </div>
           </div>
-        </div>
 
-        
+          <div class="flex justify-center content-center mb-6 mt-12">
+            <div class="block flex justify-center content-center">
+              <p class="block flex justify-center content-center items-center mr-3">Not sure where to start? </p>
+            </div>
+            
+            <router-link
+              class="btn text-white bg-gray-100 hover:bg-mint-600 group"
+              to="/schedule-call"
+            >
+              Take The Quiz
+              <i
+                class="las la-pencil-alt group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
+              ></i>
+              <span
+                class="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
+              >
+              </span>
+            </router-link>
+          </div>
+        </div>
       </div>
     </div>
   </section>
