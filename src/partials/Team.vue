@@ -173,7 +173,7 @@
           </div>
 
           <!-- 7th member -->
-          <div
+          <!-- <div
             class="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
             data-aos="fade-up"
             data-aos-delay="600"
@@ -196,7 +196,7 @@
                 >@junekissel</a
               >
             </div>
-          </div>
+          </div> -->
 
           <!-- 8th member -->
           <!-- <div
