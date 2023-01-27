@@ -176,6 +176,7 @@
   import Footer from '../partials/Footer.vue'
   
   export default {
+
     name: 'Podcast',
     components: {
       Header,
@@ -183,6 +184,11 @@
       Carousel,
       Cta,
       Footer,
+    },
+    data(){
+      return {
+        podcasts: "helo"
+      }
     },
     setup() {
       const audio = ref(null)

@@ -14,19 +14,19 @@
         <nav class="hidden md:flex md:grow">
           <!-- Desktop menu links -->
           <ul class="flex grow justify-end flex-wrap items-center">
-            <Dropdown title="Our Solutions" w-400>
+            <Dropdown title="Our Solutions">
               <li>
                 <router-link
                   to="/education"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-university header-icon"></i> Education </router-link
+                  ><i class="las la-university header-icon"></i> For Education </router-link
                 >
               </li>
               <li>
                 <router-link
                   to="/organizations"
-                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-building header-icon"></i> Organization</router-link
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
+                  ><i class="las la-building header-icon"></i> For Organizations</router-link
                 >
               </li>
               <!-- <li>
@@ -164,9 +164,9 @@
               
               <li>
                 <router-link
-                  to="/get-involved"
+                to="/whytadhealth"
                   class="flex text-gray-300 hover:text-gray-200 py-2"
-                  >Get Involved</router-link
+                  >Why TadHealth?</router-link
                 >
               </li>
               <li>
@@ -177,20 +177,20 @@
                 >
               </li>
               <li class="py-2 my-2 border-t border-gray-700">
-                <span class="flex text-gray-300 py-2">Packages</span>
+                <span class="flex text-gray-300 py-2">Our Solutions</span>
                 <ul class="pl-4">
                   <li>
                     <router-link
                       to="/education"
                       class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >Education Solution</router-link
+                      >For Education</router-link
                     >
                   </li>
                   <li>
                     <router-link
                       to="/organizations"
                       class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >Organization Solution</router-link
+                      >For Organizations</router-link
                     >
                   </li>
                   <!-- <li>
@@ -203,20 +203,27 @@
                 </ul>
               </li>
               <li class="py-2 my-2 border-t border-b border-gray-700">
-                <span class="flex text-gray-300 py-2">Support</span>
+                <span class="flex text-gray-300 py-2">Resources</span>
                 <ul class="pl-4">
                   <li>
                     <router-link
-                      to="/contact"
+                      to="/blog"
                       class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >Contact us</router-link
+                      >Blog</router-link
                     >
                   </li>
                   <li>
                     <router-link
-                      to="/help"
+                      to="/podcasts"
                       class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >Help center</router-link
+                      >Podcasts</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/casestudies"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >Case Studies</router-link
                     >
                   </li>
                 </ul>
