@@ -90,15 +90,15 @@
   
             <!-- Arrows -->
             <div class="flex mt-12 space-x-3 justify-end">
-              <button class="carousel-prev relative z-20 w-11 h-11 rounded-full flex items-center justify-center group bg-white hover:bg-blue-100 transition duration-150 ease-in-out">
+              <button class="carousel-prev relative z-20 w-11 h-11 rounded-full flex items-center justify-center group bg-white hover:bg-mint-100 transition duration-150 ease-in-out">
                 <span class="sr-only">Previous</span>
-                <svg class="w-4 h-4 fill-blue-500 transition duration-150 ease-in-out" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-4 h-4 fillgreen-500 transition duration-150 ease-in-out" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z" />
                 </svg>
               </button>
-              <button class="carousel-next relative z-20 w-11 h-11 rounded-full flex items-center justify-center group bg-white hover:bg-blue-100 transition duration-150 ease-in-out">
+              <button class="carousel-next relative z-20 w-11 h-11 rounded-full flex items-center justify-center group bg-white hover:bg-mint-100 transition duration-150 ease-in-out">
                 <span class="sr-only">Next</span>
-                <svg class="w-4 h-4 fill-blue-500 transition duration-150 ease-in-out" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-4 h-4 fill-green-500 transition duration-150 ease-in-out" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                   <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z" />
                 </svg>
               </button>

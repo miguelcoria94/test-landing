@@ -130,6 +130,8 @@ export default {
       podcast: {name: "How to make better friends",author: "Ben Greiner", date: "Jan 25", album: "Episode 234"}
     }
   },
+
+  
   setup(props, context) {
     const audio = ref(null)
     const slider = ref(null)
