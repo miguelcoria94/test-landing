@@ -69,11 +69,10 @@
             <!-- 1st level: hover -->
             <Dropdown title="Resources">
               <li>
-                <a
-                  href="https://tadhealth.wordpress.com/"
-                  target="_blank"
+                <router-link
+                  to="/blog"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-book-reader header-icon"></i>Blog</a
+                  ><i class="las la-book-reader header-icon"></i>Blog</router-link
                 >
               </li>
               <li>

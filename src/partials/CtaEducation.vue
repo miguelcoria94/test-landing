@@ -14,11 +14,25 @@
           <div class="relative">
             <h2 class="h2 font-playfair-display text-slate-800 mb-4">Want to see TadHealth in <span class="text-mint-500">action?</span></h2>
             <p class="text-xl text-slate-500 mb-8">Click the button below to get started.</p>
-            <div>
-              <router-link class="btn text-white bg-green-500 hover:bg-green-400 group" to="/request-demo">
-                Request Demo <span class="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-              </router-link>
+            <div class="flex justify-center content-center mb-6 mt-12">
+            <div class="block flex justify-center content-center">
+              <p class="block flex justify-center content-center items-center mr-3">Not sure where to start? </p>
             </div>
+            
+            <router-link
+              class="btn text-white bg-gray-100 hover:bg-mint-600 group"
+              to="/whytadhealth"
+            >
+              Take The Quiz
+              <i
+                class="las la-pencil-alt group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
+              ></i>
+              <span
+                class="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
+              >
+              </span>
+            </router-link>
+          </div>
           </div>
 
         </div>
@@ -30,6 +44,6 @@
 
 <script>
 export default {
-  name: 'Cta',
+  name: 'CtaEducation',
 }
 </script>

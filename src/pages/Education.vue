@@ -12,7 +12,7 @@
       <EducationFeatureTwo />
       
       <!-- <EducationFeature /> -->
-      <Pricing />
+      <!-- <Pricing /> -->
       
       <CompanyLogos />
 

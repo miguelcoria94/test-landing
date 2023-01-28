@@ -13,7 +13,7 @@
       </div>
 
       <!-- Page sections -->
-      <BlogList />
+      <BlogList2 />
 
     </main>
 
@@ -26,7 +26,7 @@
 <script>
 import Header from './../partials/Header.vue'
 import PageIllustration from '../partials/PageIllustration.vue'
-import BlogList from './../partials/BlogList.vue'
+import BlogList2 from './../partials/BlogList2.vue'
 import Footer from './../partials/Footer.vue'
 
 export default {
@@ -34,7 +34,7 @@ export default {
   components: {
     Header,
     PageIllustration,
-    BlogList,
+    BlogList2,
     Footer,
   },
 };

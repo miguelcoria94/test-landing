@@ -8,7 +8,7 @@
       <SimpleCards />
       <FeaturesWorld />
       <ProfitCards />
-      <Cta />
+      <CtaEducation />
     </main>
 
     <!-- Site footer -->
@@ -22,7 +22,7 @@ import Footer from "./../partials/Footer.vue";
 import SimpleCards from "./../partials/SimpleCards.vue";
 import FeaturesWorld from "./../partials/FeaturesWorld.vue";
 import ProfitCards from "./../partials/ProfitCards.vue";
-import Cta from '../partials/Cta.vue';
+import CtaEducation from './../partials/CtaEducation.vue';
 
 export default {
   name: "education",
@@ -32,7 +32,7 @@ export default {
     SimpleCards,
     FeaturesWorld,
     ProfitCards,
-    Cta,
+    CtaEducation,
   },
 };
 </script>
