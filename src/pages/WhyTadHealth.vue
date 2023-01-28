@@ -13,7 +13,9 @@
       </div>
 
       <!-- Page sections -->
+      
       <Intergrations />
+      <Pricing />
       <Faqs />
       <Testimonials />
       <Cta />
@@ -35,9 +37,10 @@ import Testimonials from '../partials/Testimonials.vue'
 import Cta from '../partials/Cta.vue'
 import Footer from '../partials/Footer.vue'
 import Intergrations from "../partials/Intergrations.vue"
+import Pricing from "../partials/Pricing.vue"
 
 export default {
-  name: 'Pricing',
+  name: 'WhyTadHealth',
   components: {
     Header,
     PageIllustration,
@@ -46,7 +49,8 @@ export default {
     Testimonials,
     Cta,
     Footer,
-    Intergrations
+    Intergrations,
+    Pricing
   },
 };
 </script>
