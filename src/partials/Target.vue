@@ -63,7 +63,7 @@
                   data-aos-anchor="[data-aos-id-target]"
                 >
                   <h4 class="h4 mb-2">
-                    <span class="text-green-600">.</span> For Counseling Centers
+                    <span class="text-green-600">.</span> For Districts
                   </h4>
                   <p class="text-lg text-gray-400">
                     Optimize and enhance your counseling center experience
