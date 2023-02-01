@@ -88,7 +88,7 @@
       >
         <img
           class="py-5"
-          src="../images/thumb-cover.jpg"
+          src="../images/thumb_cover.jpg"
           width="724"
           height="504"
           alt="Hero"
