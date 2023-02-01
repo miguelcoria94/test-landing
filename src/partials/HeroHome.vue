@@ -88,7 +88,7 @@
       >
         <img
           class="py-5"
-          src="../images/hero-image-01.jpg"
+          src="../images/TH_YOUTUBE_cover.JPG"
           width="724"
           height="504"
           alt="Hero"

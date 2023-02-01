@@ -27,6 +27,11 @@ import PrivateApp from './pages/PrivateApp.vue'
 import CaseStudies from './pages/CaseStudies.vue'
 import WhyTadHealth from "./pages/WhyTadHealth.vue"
 import Podcasts from "./pages/Podcasts.vue"
+import Admin from "./pages/admin.vue"
+import PodcastsList from "./pages/PodcastsList.vue"
+import ArticlesList from "./pages/ArticlesList.vue"
+import AdminLogin from "./pages/AdminLogin.vue"
+import AdminHome from "./pages/AdminHome.vue"
 
 const routerHistory = createWebHistory()
 
@@ -144,17 +149,39 @@ const router = createRouter({
     },
     {
       path: "/whytadhealth",
-      component: WhyTadHealth
+      component: WhyTadHealth,
     },
     {
       path: "/podcasts",
-      component: Podcasts
+      component: Podcasts,
+    },
+    {
+      path: "/admin",
+      component: Admin,
+      children: [
+        {
+          path: "home",
+          component: AdminHome,
+        },
+        {
+          path: "login",
+          component: AdminLogin,
+        },
+        {
+          path: "articles",
+          component: ArticlesList,
+        },
+        {
+          name: "podcasts",
+          path: "podcasts",
+          component: PodcastsList,
+        },
+      ],
     },
     {
       path: "/:pathMatch(.*)*",
       component: PageNotFound,
     },
-    
   ],
 });
 
