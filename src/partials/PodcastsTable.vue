@@ -36,13 +36,13 @@
               <td class="p-2 whitespace-nowrap">
                 <div class="flex shrink-0 -space-x-3 -ml-px">
                   <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.jpg" width="28" height="28" alt="User 01" />
+                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.png" width="28" height="28" alt="User 01" />
                   </a>
                   <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.jpg" width="28" height="28" alt="User 02" />
+                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.png" width="28" height="28" alt="User 02" />
                   </a>
                   <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.jpg" width="28" height="28" alt="User 03" />
+                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.png" width="28" height="28" alt="User 03" />
                   </a>
                 </div>
               </td>
