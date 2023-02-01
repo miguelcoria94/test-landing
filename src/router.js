@@ -27,7 +27,7 @@ import PrivateApp from './pages/PrivateApp.vue'
 import CaseStudies from './pages/CaseStudies.vue'
 import WhyTadHealth from "./pages/WhyTadHealth.vue"
 import Podcasts from "./pages/Podcasts.vue"
-import Admin from "./pages/admin.vue"
+import Admin from "./pages/Admin.vue"
 import PodcastsList from "./pages/PodcastsList.vue"
 import ArticlesList from "./pages/ArticlesList.vue"
 import AdminLogin from "./pages/AdminLogin.vue"
