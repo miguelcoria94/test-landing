@@ -36,13 +36,13 @@
               <td class="p-2 whitespace-nowrap">
                 <div class="flex shrink-0 -space-x-3 -ml-px">
                   <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.png" width="28" height="28" alt="User 01" />
+                    <img class="rounded-full border-2 border-white box-content" src="../images/ben.png" width="28" height="28" alt="User 01" />
                   </a>
                   <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.png" width="28" height="28" alt="User 02" />
+                    <img class="rounded-full border-2 border-white box-content" src="../images/ben.png" width="28" height="28" alt="User 02" />
                   </a>
                   <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/ben.png" width="28" height="28" alt="User 03" />
+                    <img class="rounded-full border-2 border-white box-content" src="../images/ben.png" width="28" height="28" alt="User 03" />
                   </a>
                 </div>
               </td>
@@ -79,19 +79,7 @@
                   <div class="font-medium text-slate-800">Machine Learning A-Z</div>
                 </div>
               </td>
-              <td class="p-2 whitespace-nowrap">
-                <div class="flex shrink-0 -space-x-3 -ml-px">
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-07.jpg" width="28" height="28" alt="User 07" />
-                  </a>
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-04.jpg" width="28" height="28" alt="User 04" />
-                  </a>
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-11.jpg" width="28" height="28" alt="User 11" />
-                  </a>
-                </div>
-              </td>
+              
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
                   <svg class="w-4 h-4 fill-current text-slate-400 shrink-0 mr-2" viewBox="0 0 16 16">
@@ -125,13 +113,7 @@
                   <div class="font-medium text-slate-800">2021 Web Bootcamp</div>
                 </div>
               </td>
-              <td class="p-2 whitespace-nowrap">
-                <div class="flex shrink-0 -space-x-3 -ml-px">
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-05.jpg" width="28" height="28" alt="User 05" />
-                  </a>
-                </div>
-              </td>
+             
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
                   <svg class="w-4 h-4 fill-current text-slate-400 shrink-0 mr-2" viewBox="0 0 16 16">
@@ -165,16 +147,7 @@
                   <div class="font-medium text-slate-800">Digital Marketing Course</div>
                 </div>
               </td>
-              <td class="p-2 whitespace-nowrap">
-                <div class="flex shrink-0 -space-x-3 -ml-px">
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-06.jpg" width="28" height="28" alt="User 06" />
-                  </a>
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-11.jpg" width="28" height="28" alt="User 11" />
-                  </a>
-                </div>
-              </td>
+              
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
                   <svg class="w-4 h-4 fill-current text-slate-400 shrink-0 mr-2" viewBox="0 0 16 16">
@@ -209,16 +182,7 @@
                   <div class="font-medium text-slate-800">Form Builder PRO</div>
                 </div>
               </td>
-              <td class="p-2 whitespace-nowrap">
-                <div class="flex shrink-0 -space-x-3 -ml-px">
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-09.jpg" width="28" height="28" alt="User 09" />
-                  </a>
-                  <a class="block" href="#0">
-                    <img class="rounded-full border-2 border-white box-content" src="../../images/user-28-01.jpg" width="28" height="28" alt="User 01" />
-                  </a>
-                </div>
-              </td>
+             
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
                   <svg class="w-4 h-4 fill-current text-slate-400 shrink-0 mr-2" viewBox="0 0 16 16">
