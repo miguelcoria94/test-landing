@@ -13,24 +13,13 @@
         <div class="grid md:grid-cols-6">
 
           <!-- Pricing toggle -->
-          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
+          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3">
 
-            <div class="flex justify-center md:justify-start items-center space-x-4">
-              <div class="text-sm text-slate-500 font-medium min-w-[6rem] md:min-w-0 text-right">Monthly</div>
-              <div class="form-switch shrink-0">
-                <input type="checkbox" id="toggle" class="sr-only" v-model="annual" />
-                <label class="bg-slate-900" for="toggle">
-                  <span class="bg-slate-200" aria-hidden="true"></span>
-                  <span class="sr-only">Pay annually</span>
-                </label>
-              </div>
-              <div class="text-sm text-slate-500 font-medium min-w-[6rem]">Yearly <span class="text-emerald-500">(-20%)</span></div>
-            </div>
-
+            
           </div>
 
           <!-- Starter price -->
-          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none md:text-center mt-6 md:mt-0">
+          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none md:text-center mt-6 md:mt-0">
             <div class="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Starter</div>
             <div>
               <span class="text-xl font-semibold">$</span><span class="text-2xl font-semibold">{{ annual ? '29' : '35'}}</span><span class="text-sm text-slate-500 font-medium">/mo</span>
@@ -38,7 +27,7 @@
           </div>
 
           <!-- Agency price -->
-          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none md:text-center mt-6 md:mt-0">
+          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none md:text-center mt-6 md:mt-0">
             <div class="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Agency</div>
             <div>
               <span class="text-xl font-semibold">$</span><span class="text-2xl font-semibold">{{ annual ? '49' : '55'}}</span><span class="text-sm text-slate-500 font-medium">/mo</span>
@@ -46,7 +35,7 @@
           </div>
 
           <!-- Team price -->
-          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none md:text-center mt-6 md:mt-0">
+          <div class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none md:text-center mt-6 md:mt-0">
             <div class="font-hkgrotesk text-lg font-bold text-indigo-500 mb-0.5">Team</div>
             <div>
               <span class="text-xl font-semibold">$</span><span class="text-2xl font-semibold">{{ annual ? '79' : '85'}}</span><span class="text-sm text-slate-500 font-medium">/mo</span>
@@ -54,66 +43,66 @@
           </div>
 
           <!-- Usage label -->
-          <div class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:col-span-3">
+          <div class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:col-span-3">
             <span class="text-xs uppercase font-semibold text-slate-500">Usage</span>
           </div>
-          <div class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-1 md:order-none">
+          <div class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:border-l border-slate-300 order-1 md:order-none">
             <span class="md:hidden text-xs uppercase font-semibold text-slate-500">Usage</span>
           </div>
-          <div class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-2 md:order-none">
+          <div class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:border-l border-slate-300 order-2 md:order-none">
             <span class="md:hidden text-xs uppercase font-semibold text-slate-500">Usage</span>
           </div>
-          <div class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-700 bg-opacity-25 md:border-l border-slate-700 order-3 md:order-none">
+          <div class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:border-l border-slate-300 order-3 md:order-none">
             <span class="md:hidden text-xs uppercase font-semibold text-slate-500">Usage</span>
           </div>
 
           <!-- Admins & Members -->
-          <div class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
+          <div class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3">
             <div class="text-slate-200">Admins & Members</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
-            <div class="md:hidden text-slate-200">Admins & Members</div>
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none">
+            <div class="md:hidden text-green-200">Admins & Members</div>
             <div class="text-sm font-medium text-slate-200 text-center">4</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
-            <div class="md:hidden text-slate-200">Admins & Members</div>
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none">
+            <div class="md:hidden text-green-200">Admins & Members</div>
             <div class="text-sm font-medium text-slate-200 text-center">12</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
-            <div class="md:hidden text-slate-200">Admins & Members</div>
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none">
+            <div class="md:hidden text-green-200">Admins & Members</div>
             <div class="text-sm font-medium text-slate-200 text-center">Unlimited</div>
           </div>
 
           <!-- File Storage -->
-          <div class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:col-span-3">
+          <div class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3">
             <div class="text-slate-200">File Storage</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-1 md:order-none">
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none">
             <div class="md:hidden text-slate-200">File Storage</div>
             <div class="text-sm font-medium text-slate-200 text-center">10GB</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-2 md:order-none">
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none">
             <div class="md:hidden text-slate-200">File Storage</div>
             <div class="text-sm font-medium text-slate-200 text-center">50GB</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 bg-opacity-70 md:border-l border-slate-700 order-3 md:order-none">
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none">
             <div class="md:hidden text-slate-200">File Storage</div>
             <div class="text-sm font-medium text-slate-200 text-center">Unlimited</div>
           </div>
 
           <!-- Active Users -->
-          <div class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-800 md:col-span-3">
+          <div class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3">
             <div class="text-slate-200">Active Users</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-1 md:order-none">
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none">
             <div class="md:hidden text-slate-200">Active Users</div>
             <div class="text-sm font-medium text-slate-200 text-center">500</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-2 md:order-none">
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none">
             <div class="md:hidden text-slate-200">Active Users</div>
             <div class="text-sm font-medium text-slate-200 text-center">1500</div>
           </div>
-          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-800 md:border-l border-slate-700 order-3 md:order-none">
+          <div class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none">
             <div class="md:hidden text-slate-200">Active Users</div>
             <div class="text-sm font-medium text-slate-200 text-center">Unlimited</div>
           </div>
