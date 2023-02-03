@@ -192,7 +192,7 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas repellendus ea corporis atque dolores quo, dicta earum consequatur eaque est, unde rem doloremque repellat magni laudantium sint soluta enim facilis iusto quibusdam necessitatibus? Quidem expedita fuga recusandae adipisci quos.
+              Our services provide an all in one mental health hub to your organization allowing you to have a creative approach to mental health and wellness. By creating your wellness ecosystem of 
             </p>
           </div>
         </div>
