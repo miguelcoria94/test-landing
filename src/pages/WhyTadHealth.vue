@@ -17,8 +17,9 @@
       <Intergrations />
       <Pricing />
       <Faqs />
-      <Testimonials />
+      
       <Cta />
+      <Testimonials />
 
     </main>
 
