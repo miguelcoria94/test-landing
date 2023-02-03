@@ -1,98 +1,39 @@
 <template>
-  <section>
-    <div class="hidden md:block absolute left-1/2 -ml-px -mt-10 w-0.5 h-20 bg-slate-200" aria-hidden="true"></div>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 relative">
-      <div class="pt-12 md:pt-20 border-t border-b border-gray-800">
-        <div
-          class="max-w-3xl mx-auto text-center pb-12 md:pb-16"
-          data-aos-id-cta
-        >
-          <!-- Section header -->
-          <h1
-            class="h2 mb-4"
-            data-aos="fade-up"
-            data-aos-anchor="[data-aos-id-cta]"
-          >
-            Ready to create better community support?  
-          </h1>
-          <p
-            class="text-xl text-gray-400 mb-8"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            data-aos-anchor="[data-aos-id-cta]"
-          >
-            Request a demo and let our team do the rest for you. 
-          </p>
+  <section class="bg-slate-200">
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 mt-20">
+      <div class="py-12 md:py-20">
 
-          <!-- CTA button -->
-          <div
-            class="flex justify-center mb-8"
-            data-aos="fade-up"
-            data-aos-delay="400"
-            data-aos-anchor="[data-aos-id-cta]"
-          >
-            <a class="btn text-white bg-green-600 hover:bg-green-700" href="/request-demo"
-              >Request Demo</a
-            >
+        <div class="relative max-w-3xl mx-auto text-center">
+
+          <div class="absolute right-0 -mt-4 -mr-1 fill-slate-300 hidden lg:block" aria-hidden="true">
+            <svg class="fill-green-500" width="56" height="43">
+              <path d="M4.532 30.45C15.785 23.25 24.457 12.204 29.766.199c.034-.074-.246-.247-.3-.186-4.227 5.033-9.298 9.282-14.372 13.162C10 17.07 4.919 20.61.21 24.639c-1.173 1.005 2.889 6.733 4.322 5.81M18.96 42.198c12.145-4.05 24.12-8.556 36.631-12.365.076-.024.025-.349-.055-.347-6.542.087-13.277.083-19.982.827-6.69.74-13.349 2.24-19.373 5.197-1.53.75 1.252 7.196 2.778 6.688" />
+            </svg>
           </div>
 
-          <!-- Check list -->
-          <ul
-            class="flex flex-wrap justify-center text-lg text-gray-400 -mx-2 -my-1"
-          >
-            <li
-              class="flex items-center mx-3 my-1"
-              data-aos="fade-up"
-              data-aos-delay="600"
-              data-aos-anchor="[data-aos-id-cta]"
+          <div class="relative">
+            <h2 class="h2 font-playfair-display text-slate-800 mb-4">Want to see TadHealth in <span class="text-mint-500">action?</span></h2>
+            <p class="text-xl text-slate-500 mb-8">Click the button below to get started.</p>
+            <div class="flex justify-center content-center mb-6 mt-12">
+            <div class="block flex justify-center content-center">
+              <p class="block flex justify-center content-center items-center mr-3">Not sure where to start? </p>
+            </div>
+            
+            <router-link
+              class="btn text-white bg-gray-100 hover:bg-mint-600 group"
+              to="/request-demo"
             >
-              <svg
-                class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                viewBox="0 0 12 12"
-                xmlns="http://www.w3.org/2000/svg"
+              Request A Demo
+              <span
+                class="tracking-normal text-white group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2"
               >
-                <path
-                  d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                />
-              </svg>
-              <span>Request demo</span>
-            </li>
-            <li
-              class="flex items-center mx-3 my-1"
-              data-aos="fade-up"
-              data-aos-delay="800"
-              data-aos-anchor="[data-aos-id-cta]"
-            >
-              <svg
-                class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                viewBox="0 0 12 12"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                />
-              </svg>
-              <span>Select features</span>
-            </li>
-            <li
-              class="flex items-center mx-3 my-1"
-              data-aos="fade-up"
-              data-aos-delay="1000"
-              data-aos-anchor="[data-aos-id-cta]"
-            >
-              <svg
-                class="w-3 h-3 fill-current text-green-500 mr-2 shrink-0"
-                viewBox="0 0 12 12"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                />
-              </svg>
-              <span>Activate resources</span>
-            </li>
-          </ul>
+              </span>
+            </router-link>
+          </div>
+          </div>
+
         </div>
+
       </div>
     </div>
   </section>
@@ -100,6 +41,6 @@
 
 <script>
 export default {
-  name: "Cta",
-};
+  name: 'CtaEducation',
+}
 </script>

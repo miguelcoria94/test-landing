@@ -18,8 +18,9 @@
       <Pricing />
       <Faqs />
       
-      <Cta />
+      
       <Testimonials />
+      <Cta />
 
     </main>
 
