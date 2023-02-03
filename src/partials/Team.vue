@@ -77,17 +77,17 @@
             <div class="flex flex-col items-center">
               <img
                 class="rounded-full mb-4"
-                src="../images/team-member-08.jpg"
+                src="../images/matt.jpeg"
                 width="120"
                 height="120"
                 alt="Team member 08"
               />
               <h4 class="text-xl font-medium mb-1">Matt Pizzo</h4>
-              <div class="text-gray-400 mb-1">Community Lead</div>
+              <div class="text-gray-400 mb-1">Growth & Partnerships Lead</div>
               <a
                 class="block text-green-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                href="#0"
-                >@hello_chuzeville</a
+                href="https://www.linkedin.com/in/matt-pizzo/"
+                >@mattpizzo</a
               >
             </div>
           </div>
@@ -206,18 +206,18 @@
             <div class="flex flex-col items-center">
               <img
                 class="rounded-full mb-4"
-                src="../images/june.jpg"
+                src="../images/anna.jpg"
                 width="120"
                 height="120"
                 alt="Team member 07"
               />
               <h4 class="text-xl font-medium mb-1">Anna Mars</h4>
-              <div class="text-gray-400 mb-1">Placeholder</div>
+              <div class="text-gray-400 mb-1">UX Designer</div>
               <a
                 class="block text-green-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                href="https://www.linkedin.com/in/june-kissel-a8b811112/"
+                href="https://www.linkedin.com/in/annamars/"
                 target="_blank"
-                >@junekissel</a
+                >@annamars</a
               >
             </div>
           </div> 
