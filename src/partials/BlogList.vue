@@ -5,7 +5,7 @@
         <!-- Page header -->
         <div class="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
           <h1 class="h1" data-aos="fade-up">
-            Refreshing news for mental health trends and updates
+            Beverly Hills Unified: A Case Study
           </h1>
         </div>
 
@@ -42,18 +42,12 @@
                   <ul class="flex flex-wrap text-xs font-medium -m-1">
                     <li class="m-1">
                       <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-green-600 hover:bg-green-700 transition duration-150 ease-in-out"
+                        class="inline-flex text-center text-gray-800 py-1 px-3 rounded-full bg-green-500 hover:bg-green-700 transition duration-150 ease-in-out"
                         href="#0"
-                        >Product</a
+                        >Case Study</a
                       >
                     </li>
-                    <li class="m-1">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                        href="#0"
-                        >Engineering</a
-                      >
-                    </li>
+                    
                   </ul>
                 </div>
                 <h3 class="h3 text-2xl lg:text-3xl mb-2">
