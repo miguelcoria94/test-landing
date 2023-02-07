@@ -13,6 +13,121 @@
           </p>
         </div>
 
+        <div class="max-w-sm md:max-w-2xl xl:max-w-none mx-auto grid gap-8 md:grid-cols-2 xl:grid-cols-3 xl:gap-6 items-start mb-20">
+
+            <!-- Pricing table 1 -->
+            <div class="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-md" data-aos="zoom-y-out" data-aos-delay="450">
+              <div class="mb-4">
+                <div class="text-lg font-bold mb-5">Starter</div>
+                <div class="text-lg text-slate-500 mb-5">For organizations new to wellness that need to create, collaborate and deliver resources. </div>
+              </div>
+              <ul class="text-gray-600 -mb-2 grow">
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Unlimited viewers</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Up to 3 members</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Up to 2 projects</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Dedicated support</span>
+                </li>
+              </ul>
+              <div class="border-t border-gray-200 pt-5 mt-6">
+                <a class="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full" href="#0">Try for free</a>
+              </div>
+            </div>
+
+            <!-- Pricing table 3 -->
+            <div class="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-md" data-aos="zoom-y-out" data-aos-delay="450">
+              <div class="mb-4">
+                <div class="text-lg font-bold mb-5">Advanced</div>
+                <div class="text-lg text-slate-500 mb-5">For organizations familiar with wellness that need to organize and deliver resources.</div>
+              </div>
+              <ul class="text-gray-600 -mb-2 grow">
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Unlimited viewers</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Up to 3 members</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Up to 2 projects</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Dedicated support</span>
+                </li>
+              </ul>
+              <div class="border-t border-gray-200 pt-5 mt-6">
+                <a class="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full" href="#0">Start free trial</a>
+              </div>
+            </div>
+
+            <!-- Pricing table 4 -->
+            <div class="relative flex flex-col h-full py-5 px-6 rounded bg-white shadow-md" data-aos="zoom-y-out" data-aos-delay="450">
+              <div class="mb-4">
+                <div class="text-lg font-bold mb-5">Enterprise</div>
+                <div class="text-lg text-slate-500 mb-5">For organizations with advanced wellness programs that need synchronized and efficient resource delivery.</div>
+              </div>
+              <ul class="text-gray-600 -mb-2 grow">
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Unlimited viewers</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Up to 3 members</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Up to 2 projects</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Dedicated support</span>
+                </li>
+              </ul>
+              <div class="border-t border-gray-200 pt-5 mt-6">
+                <a class="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full" href="#0">Start free trial</a>
+              </div>
+            </div>
+
+          </div>
+
         <!-- Pricing tables -->
         <div class="grid md:grid-cols-6">
           <!-- Pricing toggle -->
