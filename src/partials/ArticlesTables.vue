@@ -1,7 +1,8 @@
 <template>
   <div class="col-span-full bg-white shadow-lg rounded-sm border border-slate-200 m-4">
+    
     <header class="px-5 py-4 border-b border-slate-100">
-      <h2 class="font-semibold text-slate-800">All Podcasts</h2>
+      <h2 class="font-semibold text-slate-800">All Articles</h2>
     </header>
     <div class="p-3">
 
@@ -25,7 +26,7 @@
             <tr>
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
-                  <div class="font-medium text-slate-800">Podcast #1</div>
+                  <div class="font-medium text-slate-800">Article #1</div>
                 </div>
               </td>
               <td class="p-2 whitespace-nowrap">
@@ -45,7 +46,7 @@
             <tr>
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
-                  <div class="font-medium text-slate-800">Podcast #1</div>
+                  <div class="font-medium text-slate-800">Article  #1</div>
                 </div>
               </td>
               <td class="p-2 whitespace-nowrap">
@@ -65,7 +66,7 @@
             <tr>
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
-                  <div class="font-medium text-slate-800">Podcast #1</div>
+                  <div class="font-medium text-slate-800">Article  #1</div>
                 </div>
               </td>
               <td class="p-2 whitespace-nowrap">
@@ -85,7 +86,7 @@
             <tr>
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
-                  <div class="font-medium text-slate-800">Podcast #1</div>
+                  <div class="font-medium text-slate-800">Article  #1</div>
                 </div>
               </td>
               <td class="p-2 whitespace-nowrap">
@@ -105,7 +106,7 @@
             <tr>
               <td class="p-2 whitespace-nowrap">
                 <div class="flex items-center">
-                  <div class="font-medium text-slate-800">Podcast #1</div>
+                  <div class="font-medium text-slate-800">Article  #1</div>
                 </div>
               </td>
               <td class="p-2 whitespace-nowrap">
@@ -131,6 +132,6 @@
 
 <script>
 export default {
-  name: 'PodcastsTable',
+  name: 'ArticlesTable',
 }
 </script>

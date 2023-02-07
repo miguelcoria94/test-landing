@@ -15,7 +15,7 @@
             class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center"
           >
             <router-link
-              to="/blog-post"
+              to="/bhhs-case-study"
               class="relative block group"
               data-aos="fade-right"
               data-aos-delay="200"
@@ -29,7 +29,7 @@
               >
                 <img
                   class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                  src="../images/blog-post-01.jpg"
+                  src="../images/bhhs-case-study.png"
                   width="540"
                   height="303"
                   alt="Blog post 01"
@@ -52,22 +52,20 @@
                 </div>
                 <h3 class="h3 text-2xl lg:text-3xl mb-2">
                   <router-link
-                    to="/blog-post"
+                    to="/bhhs-case-study"
                     class="hover:text-gray-100 transition duration-150 ease-in-out"
-                    >Designing a functional workflow at home.</router-link
+                    >Beverly Hills Unified Customer Story - Alison Norman-Franks, Lead Wellness Counselor </router-link
                   >
                 </h3>
               </header>
               <p class="text-lg text-gray-400 grow">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Beverly Hills High School is a public high school serving 1,300 students in Beverly Hills, CA. The school is unique in its student mental wellness approach and has one of the nation’s first school based mental health centers, NormanAid Wellness Center (NAWC).
               </p>
               <footer class="flex items-center mt-4">
-                <a href="#0">
+                <a href="/bhhs-case-study">
                   <img
                     class="rounded-full shrink-0 mr-4"
-                    src="../images/news-author-04.jpg"
+                    src="../images/ben.png"
                     width="40"
                     height="40"
                     alt="Author 04"
@@ -76,8 +74,8 @@
                 <div>
                   <a
                     class="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
-                    >Chris Solerieu</a
+                    href="/bhhs-case-study"
+                    >Ben Greiner</a
                   >
                   <span class="text-gray-700"> - </span>
                   <span class="text-gray-400">Jan 19, 2020</span>

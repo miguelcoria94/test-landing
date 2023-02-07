@@ -13,8 +13,8 @@
       </div>
 
       <!-- Page sections -->
-      <BlogSingle />
-      <Newsletter />
+      <BHHSCaseStudy />
+      <CtaEducation />
 
     </main>
 
@@ -27,17 +27,17 @@
 <script>
 import Header from './../partials/Header.vue'
 import PageIllustration from '../partials/PageIllustration.vue'
-import BlogSingle from '../partials/BHHSCaseStudy.vue'
-import Newsletter from '../partials/Newsletter.vue'
+import BHHSCaseStudy from '../partials/BHHSCaseStudy.vue'
 import Footer from './../partials/Footer.vue'
+import CtaEducation from "../partials/CtaEducation.vue"
 
 export default {
   name: 'BlogPost',
   components: {
     Header,
     PageIllustration,
-    BlogSingle,
-    Newsletter,
+    BHHSCaseStudy,
+    CtaEducation,
     Footer,
   },
 };

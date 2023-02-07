@@ -192,7 +192,7 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Our services provide an all in one mental health hub to your organization allowing you to have a creative approach to mental health and wellness. By creating your wellness ecosystem of 
+              Our services provide an all in one mental health hub to your organization allowing you to have a creative approach to mental health and wellness. By creating your own digital wellness hub you can deliver a collaborative approach to mental health and wellness that influences individual success. We work directly with your leadership team to create the right wellness experience. Join TadHealth to provide seamless and secure resources to everyone in your organization now.
             </p>
           </div>
         </div>

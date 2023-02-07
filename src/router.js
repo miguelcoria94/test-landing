@@ -32,6 +32,7 @@ import PodcastsList from "./pages/PodcastsList.vue"
 import ArticlesList from "./pages/ArticlesList.vue"
 import AdminLogin from "./pages/AdminLogin.vue"
 import AdminHome from "./pages/AdminHome.vue"
+import BHHSCaseStudy from "./pages/BHHSCaseStudy.vue";
 
 const routerHistory = createWebHistory()
 
@@ -78,6 +79,10 @@ const router = createRouter({
     {
       path: "/blog-post",
       component: BlogPost,
+    },
+    {
+      path: "/bhhs-case-study",
+      component: BHHSCaseStudy,
     },
     {
       path: "/talk-and-walk",
