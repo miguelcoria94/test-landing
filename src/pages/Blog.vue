@@ -10,6 +10,7 @@
       
       <!-- Blog Header -->
       <BlogHero />
+      <BlogHeader />
       
 
     </main>
@@ -24,13 +25,15 @@
 import Header from './../partials/Header.vue'
 import Footer from './../partials/Footer.vue'
 import BlogHero from './../partials/BlogHero.vue'
+import BlogHeader from './../partials/BlogHeader.vue'
 
 export default {
   name: 'Blog',
   components: {
     Header,
     Footer,
-    BlogHero
+    BlogHero,
+    BlogHeader
   },
 };
 </script>
