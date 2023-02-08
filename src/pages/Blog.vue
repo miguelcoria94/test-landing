@@ -7,13 +7,10 @@
     <!-- Page content -->
     <main class="grow">
 
-      <!-- Page illustration -->
-      <div class="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
-        <PageIllustration />
-      </div>
-
-      <!-- Page sections -->
-      <BlogList2 />
+      
+      <!-- Blog Header -->
+      <BlogHero />
+      
 
     </main>
 
@@ -25,17 +22,15 @@
 
 <script>
 import Header from './../partials/Header.vue'
-import PageIllustration from '../partials/PageIllustration.vue'
-import BlogList2 from './../partials/BlogList2.vue'
 import Footer from './../partials/Footer.vue'
+import BlogHero from './../partials/BlogHero.vue'
 
 export default {
   name: 'Blog',
   components: {
     Header,
-    PageIllustration,
-    BlogList2,
     Footer,
+    BlogHero
   },
 };
 </script>
