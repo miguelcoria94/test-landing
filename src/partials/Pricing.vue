@@ -26,29 +26,35 @@
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Unlimited viewers</span>
+                  <span class="text-slate-500">Up to 3 Account Types</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Up to 3 members</span>
+                  <span class="text-slate-500">Dynamic Resources</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Up to 2 projects</span>
+                  <span class="text-slate-500">Basic Notifications</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Dedicated support</span>
+                  <span class="text-slate-500">Basic Analytics</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Dedicated Support </span>
                 </li>
               </ul>
-              <div class="border-t border-gray-200 pt-5 mt-6">
-                <a class="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full" href="#0">Try for free</a>
+              <div class="pt-5 mt-6">
+                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="#0">Take The Quiz</a>
               </div>
             </div>
 
@@ -63,29 +69,47 @@
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Unlimited viewers</span>
+                  <span class="text-slate-500">Up to 4 Account Types</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Up to 3 members</span>
+                  <span class="text-slate-500">Dynamic Resources</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Up to 2 projects</span>
+                  <span class="text-slate-500">Wellness Session Management</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Dedicated support</span>
+                  <span class="text-slate-500">Advanced Notifications</span>
+                </li>
+                 <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Advanced Analytics</span>
+                </li>
+                 <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">SSO Integration</span>
+                </li>
+                 <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Dedicated Support</span>
                 </li>
               </ul>
-              <div class="border-t border-gray-200 pt-5 mt-6">
-                <a class="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full" href="#0">Start free trial</a>
+              <div class="pt-5 mt-6">
+                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="#0">Take The Quiz</a>
               </div>
             </div>
 
@@ -100,29 +124,59 @@
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Unlimited viewers</span>
+                  <span class="text-slate-500">Up to 5 Account Types</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Up to 3 members</span>
+                  <span class="text-slate-500">Dynamic Resources</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Up to 2 projects</span>
+                  <span class="text-slate-500">Mental Health Safety System</span>
                 </li>
                 <li class="flex items-center mb-2">
                   <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span class="text-slate-500">Dedicated support</span>
+                  <span class="text-slate-500">Wellness Session Management</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Smart Resource Library</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Advanced Notifications</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Advanced Analytics</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">SSO Integration</span>
+                </li>
+                <li class="flex items-center mb-2">
+                  <svg class="w-3 h-3 fill-current text-green-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                  </svg>
+                  <span class="text-slate-500">Dedicated Support</span>
                 </li>
               </ul>
-              <div class="border-t border-gray-200 pt-5 mt-6">
-                <a class="btn-sm text-white bg-blue-600 hover:bg-blue-700 w-full" href="#0">Start free trial</a>
+              <div class="pt-5 mt-6">
+                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="#0">Take The Quiz</a>
               </div>
             </div>
 
@@ -205,13 +259,13 @@
             class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none"
           >
             <div class="md:hidden text-slate-500">User Types</div>
-            <div class="text-sm font-medium text-slate-500 text-center">4</div>
+            <div class="text-sm font-medium text-slate-500 text-center">3</div>
           </div>
           <div
             class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none"
           >
             <div class="md:hidden text-green-200">User Types</div>
-            <div class="text-sm font-medium text-slate-500 text-center">5</div>
+            <div class="text-sm font-medium text-slate-500 text-center">4</div>
           </div>
           <div
             class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
@@ -313,67 +367,6 @@
               class="md:hidden text-xs uppercase font-semibold text-slate-500"
               >Features</span
             >
-          </div>
-
-          <!-- All Account Types -->
-          <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
-          >
-            <div class="text-slate-500">All Account Types</div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">All Account Types</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">All Account Types</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">All Account Types</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
           </div>
 
           <!-- Resource Management -->
@@ -617,73 +610,6 @@
             class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
           >
             <div class="md:hidden text-slate-500">SSO Integration</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-
-          <!-- Behavoral Health Content -->
-          <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
-          >
-            <div class="text-slate-500">Behavioral Health Content</div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">
-              Behavioral Health Content
-            </div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">
-              Behavioral Health Content
-            </div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">
-              Behavioral Health Content
-            </div>
             <div class="text-sm font-medium text-slate-500 text-center">
               <svg
                 class="inline-flex fill-mint-400"
@@ -992,128 +918,6 @@
             </div>
           </div>
 
-          <!-- Professional Activity Log   -->
-          <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
-          >
-            <div class="text-slate-500">Professional Activity Log</div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">
-              Professional Activity Log
-            </div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-slate-500"
-                width="14"
-                height="2"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M14 0v2H0V0z" fill-rule="evenodd" />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">
-              Professional Activity Log
-            </div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">
-              Professional Activity Log
-            </div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-
-          <!-- White Label  -->
-          <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
-          >
-            <div class="text-slate-500">White Label</div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">White Label</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-slate-500"
-                width="14"
-                height="2"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M14 0v2H0V0z" fill-rule="evenodd" />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">White Label</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
-          >
-            <div class="md:hidden text-slate-500">White Label</div>
-            <div class="text-sm font-medium text-slate-500 text-center">
-              <svg
-                class="inline-flex fill-mint-400"
-                width="12"
-                height="9"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
-                  fill-rule="nonzero"
-                />
-              </svg>
-            </div>
-          </div>
-
           <!-- CTA row -->
           <div
             class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-100 bg-opacity-25 md:col-span-3"
@@ -1123,9 +927,9 @@
           >
             <a
               class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm group whitespace-nowrap"
-              href="#0"
+              href="/request-demo"
             >
-              Take The Quiz
+              Request A Demo
             </a>
           </div>
           <div
@@ -1133,9 +937,9 @@
           >
             <a
               class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm group whitespace-nowrap"
-              href="#0"
+              href="/request-demo"
             >
-              Take The Quiz
+              Request A Demo
             </a>
           </div>
           <div
@@ -1143,9 +947,9 @@
           >
             <a
               class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm group whitespace-nowrap"
-              href="#0"
+              href="/request-demo"
             >
-              Take The Quiz
+              Request A Demo
             </a>
           </div>
         </div>
