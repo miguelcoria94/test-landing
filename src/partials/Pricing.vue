@@ -627,12 +627,12 @@
 
           <!-- Email Notifications -->
           <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
+            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
           >
             <div class="text-slate-500">Email Notifications</div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
           >
             <div class="md:hidden text-slate-500">Email Notifications</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -650,7 +650,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 md:border-l border-slate-300 order-2 md:order-none"
           >
             <div class="md:hidden text-slate-500">Email Notifications</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -668,7 +668,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
           >
             <div class="md:hidden text-slate-500">Email Notifications</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -688,12 +688,12 @@
 
           <!-- SMS Notifications  -->
           <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
+            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:col-span-3"
           >
             <div class="text-slate-500">SMS Notifications</div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
           >
             <div class="md:hidden text-slate-500">SMS Notifications</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -708,7 +708,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
           >
             <div class="md:hidden text-slate-500">SMS Notifications</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -726,7 +726,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
           >
             <div class="md:hidden text-slate-500">SMS Notifications</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -746,12 +746,12 @@
 
           <!-- Calendar Integration  -->
           <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
+            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 md:col-span-3"
           >
             <div class="text-slate-500">Calendar Integration</div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
           >
             <div class="md:hidden text-slate-500">Calendar Integration</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -766,7 +766,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
           >
             <div class="md:hidden text-slate-500">Calendar Integration</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -784,7 +784,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
           >
             <div class="md:hidden text-slate-500">Calendar Integration</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -804,12 +804,12 @@
 
           <!-- Smart Resource Library  -->
           <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
+            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:col-span-3"
           >
             <div class="text-slate-500">Smart Resource Library</div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
           >
             <div class="md:hidden text-slate-500">Smart Resource Library</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -824,7 +824,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
           >
             <div class="md:hidden text-slate-500">Smart Resource Library</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -842,7 +842,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
           >
             <div class="md:hidden text-slate-500">Smart Resource Library</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -862,12 +862,12 @@
 
           <!-- Analytics & Trends  -->
           <div
-            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
+            class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
           >
             <div class="text-slate-500">Analytics & Trends</div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
           >
             <div class="md:hidden text-slate-500">Analytics & Trends</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -882,7 +882,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
           >
             <div class="md:hidden text-slate-500">Analytics & Trends</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -900,7 +900,7 @@
             </div>
           </div>
           <div
-            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none"
+            class="flex justify-between md:flex-col md:justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
           >
             <div class="md:hidden text-slate-500">Analytics & Trends</div>
             <div class="text-sm font-medium text-slate-500 text-center">
@@ -920,10 +920,10 @@
 
           <!-- CTA row -->
           <div
-            class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-100 bg-opacity-25 md:col-span-3"
+            class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-100 bg-opacity-70 md:col-span-3"
           ></div>
           <div
-            class="flex flex-col justify-center p-4 bg-slate-100 bg-opacity-25 md:border-l border-slate-300 order-1 md:order-none"
+            class="flex flex-col justify-center p-4 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-1 md:order-none"
           >
             <a
               class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm group whitespace-nowrap"
@@ -933,7 +933,7 @@
             </a>
           </div>
           <div
-            class="flex flex-col justify-center p-4 bg-slate-100 bg-opacity-25 md:border-l border-slate-300 order-2 md:order-none"
+            class="flex flex-col justify-center p-4 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-2 md:order-none"
           >
             <a
               class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm group whitespace-nowrap"
@@ -943,7 +943,7 @@
             </a>
           </div>
           <div
-            class="flex flex-col justify-center p-4 bg-slate-100 bg-opacity-25 md:border-l border-slate-300 order-3 md:order-none"
+            class="flex flex-col justify-center p-4 bg-slate-100 bg-opacity-70 md:border-l border-slate-300 order-3 md:order-none"
           >
             <a
               class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm group whitespace-nowrap"
