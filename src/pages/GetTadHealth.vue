@@ -8,10 +8,14 @@
     <main class="grow">
 
       <GthHero />
-      <!-- <Inspiration />
-      <Carousel />
+      <GthCarousel />
       <Creatives />
-      <Pricing />
+      <GthPricing />
+      <GthTestimonials />
+      <!-- <Inspiration />
+      
+      <Creatives />
+      
       <Testimonials />
       <Faqs />
       <Blog />
@@ -28,10 +32,11 @@
 <script>
 import GthHeader from '../partials/GthHeader.vue'
 import GthHero from '../partials/GthHero.vue'
+import GthCarousel from '../partials/GthCarousel.vue'
 // import Inspiration from '../partials/Inspiration.vue'
-// import Creatives from '../partials/Creatives.vue'
-// import Pricing from '../partials/Pricing.vue'
-// import Testimonials from '../partials/Testimonials.vue'
+import Creatives from '../partials/Creatives.vue'
+import GthPricing from '../partials/GthPricing.vue'
+import GthTestimonials from '../partials/GthTestimonials.vue'
 // import Faqs from '../partials/Faqs.vue'
 // import Blog from '../partials/Blog.vue'
 // import Cta from '../partials/Cta.vue'
@@ -42,6 +47,10 @@ export default {
   components: {
     GthHeader,
     GthHero,
+    GthCarousel,
+    Creatives,
+    GthPricing,
+    GthTestimonials
   },
 }
 </script>
