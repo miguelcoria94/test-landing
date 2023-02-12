@@ -17,7 +17,7 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              TadHealth allows anyone verified on our network access to resources, prospective clients, and other opportunities.
+            TadHealth is a powerful network of digital mental health tools that give you control of how you share, engage, and distribute organizational wellness. 
             </p>
           </div>
   
@@ -185,14 +185,14 @@
           </div>
 
 
-          <div class="max-w-3xl mx-auto text-center pt-12">
+          <div class="max-w-4xl mx-auto text-center pt-12">
             
             <p
               class="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Our services provide an all in one mental health hub to your organization allowing you to have a creative approach to mental health and wellness. By creating your own digital wellness hub you can deliver a collaborative approach to mental health and wellness that influences individual success. We work directly with your leadership team to create the right wellness experience. Join TadHealth to provide seamless and secure resources to everyone in your organization now.
+            Our technology provides you with options to deliver a simplified and high end experience to mental health and wellness in your organization. We work closely with your leadership team to customize a tailored wellness experience that fits your needs, highlighting the importance of proper coordination in achieving success. Our data-driven approach saves counselors hours of administration time and connects everyone to care options all in one place. Join TadHealth today for effortless and secure access to provide a wealth of mental health resources for your entire organization. 
             </p>
           </div>
         </div>
