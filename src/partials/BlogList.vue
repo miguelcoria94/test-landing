@@ -61,7 +61,7 @@
               <p class="text-lg text-gray-400 grow">
                 Beverly Hills High School is a public high school serving 1,300 students in Beverly Hills, CA. The school is unique in its student mental wellness approach and has one of the nation’s first school based mental health centers, NormanAid Wellness Center (NAWC).
               </p>
-              <footer class="flex items-center mt-4">
+              <!-- <footer class="flex items-center mt-4">
                 <a href="/bhhs-case-study">
                   <img
                     class="rounded-full shrink-0 mr-4"
@@ -80,7 +80,7 @@
                   <span class="text-gray-700"> - </span>
                   <span class="text-gray-400">Jan 19, 2020</span>
                 </div>
-              </footer>
+              </footer> -->
             </div>
           </article>
         </div>
@@ -89,7 +89,7 @@
         <div class="max-w-sm mx-auto md:max-w-none">
           <!-- Section title -->
           <h4 class="h4 pb-6 mb-10 border-b border-gray-700" data-aos="fade-up">
-            Latest articles
+            All Case Studies
           </h4>
 
           <!-- Articles container -->
@@ -105,36 +105,19 @@
                   >
                     <img
                       class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                      src="../images/news-01.jpg"
+                      src="../images/bhhs-case-study.png"
                       width="352"
                       height="198"
                       alt="News 01"
                     />
                   </figure>
                 </router-link>
-                <div class="mb-3">
-                  <ul class="flex flex-wrap text-xs font-medium -m-1">
-                    <li class="m-1">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-green-600 hover:bg-green-700 transition duration-150 ease-in-out"
-                        href="#0"
-                        >Product</a
-                      >
-                    </li>
-                    <li class="m-1">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                        href="#0"
-                        >Engineering</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+               
                 <h3 class="h4 mb-2">
                   <router-link
                     to="/blog-post"
                     class="hover:text-gray-100 transition duration-150 ease-in-out"
-                    >The quick brown fox jumped over the lazy dog.</router-link
+                    >Beverly Hills Unified School District</router-link
                   >
                 </h3>
               </header>
@@ -142,7 +125,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <footer class="flex items-center mt-4">
+              <!-- <footer class="flex items-center mt-4">
                 <a href="#0">
                   <img
                     class="rounded-full shrink-0 mr-4"
@@ -161,7 +144,7 @@
                   <span class="text-gray-700"> - </span>
                   <span class="text-gray-400">Jan 17, 2020</span>
                 </div>
-              </footer>
+              </footer> -->
             </article>
 
             <!-- 2nd article -->
@@ -177,44 +160,26 @@
                   >
                     <img
                       class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                      src="../images/news-02.jpg"
+                      src="../images/greenwood.png"
                       width="352"
                       height="198"
                       alt="News 02"
                     />
                   </figure>
                 </router-link>
-                <div class="mb-3">
-                  <ul class="flex flex-wrap text-xs font-medium -m-1">
-                    <li class="m-1">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out"
-                        href="#0"
-                        >Desing</a
-                      >
-                    </li>
-                    <li class="m-1">
-                      <a
-                        class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                        href="#0"
-                        >Engineering</a
-                      >
-                    </li>
-                  </ul>
-                </div>
+               
                 <h3 class="h4 mb-2">
                   <router-link
                     to="/blog-post"
                     class="hover:text-gray-100 transition duration-150 ease-in-out"
-                    >The quick brown fox jumped over the lazy dog.</router-link
+                    >Greenwood College</router-link
                   >
                 </h3>
               </header>
               <p class="text-lg text-gray-400 grow">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nobis debitis illo eius saepe magni? Natus neque voluptate hic magnam consequuntur vitae totam adipisci repellat soluta ratione. Eaque, doloremque ratione?
               </p>
-              <footer class="flex items-center mt-4">
+              <!-- <footer class="flex items-center mt-4">
                 <a href="#0">
                   <img
                     class="rounded-full shrink-0 mr-4"
@@ -233,7 +198,61 @@
                   <span class="text-gray-700"> - </span>
                   <span class="text-gray-400">Jan 12, 2020</span>
                 </div>
-              </footer>
+              </footer> -->
+            </article>
+
+            <!-- 3nd article -->
+            <article
+              class="flex flex-col h-full"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <header>
+                <router-link to="/blog-post" class="block mb-6">
+                  <figure
+                    class="relative h-0 pb-9/16 overflow-hidden rounded-sm"
+                  >
+                    <img
+                      class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
+                      src="../images/laguna.png"
+                      width="352"
+                      height="198"
+                      alt="News 02"
+                    />
+                  </figure>
+                </router-link>
+                
+                <h3 class="h4 mb-2">
+                  <router-link
+                    to="/blog-post"
+                    class="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >Laguna Beach Counseling</router-link
+                  >
+                </h3>
+              </header>
+              <p class="text-lg text-gray-400 grow">
+                Laguna Beach Counseling is a LMFT group serving residents in Orange County California. Kathleen is a long time practitioner focused on a holistic approach to relationships and wellness.
+              </p>
+              <!-- <footer class="flex items-center mt-4">
+                <a href="#0">
+                  <img
+                    class="rounded-full shrink-0 mr-4"
+                    src="../images/news-author-02.jpg"
+                    width="40"
+                    height="40"
+                    alt="Author 02"
+                  />
+                </a>
+                <div class="font-medium">
+                  <a
+                    class="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    href="#0"
+                    >Markus Barker</a
+                  >
+                  <span class="text-gray-700"> - </span>
+                  <span class="text-gray-400">Jan 12, 2020</span>
+                </div>
+              </footer> -->
             </article>
 
 
