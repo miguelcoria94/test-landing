@@ -162,6 +162,30 @@
                         </div>
                       </div>
                     </li>
+                    <li class="flex items-center">
+                      <img
+                        class="shrink-0 rounded-full mr-3"
+                        src="../images/instagram.png"
+                        width="44"
+                        height="44"
+                        alt="Host 04"
+                      />
+                      <div>
+                        <div
+                          class="font-hkgrotesk font-extrabold text-sm text-slate-800"
+                        >
+                          Instagram
+                        </div>
+                        <div>
+                          <a
+                            class="block font-hkgrotesk font-medium text-blue-500 text-xs hover:underline"
+                            href="https://www.instagram.com/tadhealth/?hl=en"
+                            target="blank"
+                            >@tadhealth</a
+                          >
+                        </div>
+                      </div>
+                    </li>
                     <!-- <li class="flex items-center">
                         <img class="shrink-0 rounded-full mr-3" src="../images/host-05.jpg" width="44" height="44" alt="Host 05">
                         <div>

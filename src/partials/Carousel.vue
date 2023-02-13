@@ -1,6 +1,8 @@
 <template>
     <section>
+      
       <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        
         <div class="relative">
   
           <!-- Background -->
@@ -14,6 +16,7 @@
               </g>
             </svg>
           </div>
+          
   
           <!-- Scratches -->
           <div class="absolute bottom-0 -mb-5 ml-16">
@@ -23,6 +26,11 @@
           </div>
   
           <div class="py-12 md:py-20 -mx-20 px-20 overflow-hidden">
+            <h2
+                    class="text-3xl md:text-4xl font-hkgrotesk font-extrabold mb-10"
+                  >
+                    Podcasts from our partners! 
+                  </h2>
   
             <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
             <!-- * Custom styles in src/css/additional-styles/theme.scss -->
