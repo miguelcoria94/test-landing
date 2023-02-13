@@ -5,11 +5,10 @@
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <h2 class="h2 font-hkgrotesk mb-4">
-            Let's find the right plan for you business
+            Let’s find the right wellness experience for your organization
           </h2>
-          <p class="text-xl text-slate-500">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est.
+          <p class="text-xl text-gray-400">
+            Choose from a variety of curated packages and experiences out of the box. If you are looking for the right fit take the quiz below. 
           </p>
         </div>
 
