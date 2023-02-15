@@ -154,7 +154,7 @@
               data-aos-delay="100"
             >
               <header>
-                <router-link to="/blog-post" class="block mb-6">
+                <a class="block mb-6">
                   <figure
                     class="relative h-0 pb-9/16 overflow-hidden rounded-sm"
                   >
@@ -166,13 +166,12 @@
                       alt="News 02"
                     />
                   </figure>
-                </router-link>
+                </a>
                
                 <h3 class="h4 mb-2">
-                  <router-link
-                    to="/blog-post"
+                  <a
                     class="hover:text-gray-100 transition duration-150 ease-in-out"
-                    >Greenwood College</router-link
+                    >Greenwood College (Coming Soon)</a
                   >
                 </h3>
               </header>
@@ -208,7 +207,7 @@
               data-aos-delay="100"
             >
               <header>
-                <router-link to="/blog-post" class="block mb-6">
+                <a class="block mb-6">
                   <figure
                     class="relative h-0 pb-9/16 overflow-hidden rounded-sm"
                   >
@@ -220,13 +219,12 @@
                       alt="News 02"
                     />
                   </figure>
-                </router-link>
+                </a>
                 
                 <h3 class="h4 mb-2">
-                  <router-link
-                    to="/blog-post"
+                  <a
                     class="hover:text-gray-100 transition duration-150 ease-in-out"
-                    >Laguna Beach Counseling</router-link
+                    >Laguna Beach Counseling (Coming Soon)</a
                   >
                 </h3>
               </header>
