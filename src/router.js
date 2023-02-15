@@ -34,6 +34,7 @@ import AdminLogin from "./pages/AdminLogin.vue"
 import AdminHome from "./pages/AdminHome.vue"
 import BHHSCaseStudy from "./pages/BHHSCaseStudy.vue";
 import GetTadHealth from './pages/GetTadHealth.vue'
+import GetTadHealthForm from './pages/GetTadHealthForm.vue'
 
 const routerHistory = createWebHistory()
 
@@ -102,8 +103,12 @@ const router = createRouter({
       component: About,
     },
     {
-      path: '/get-tadhealth',
-      component: GetTadHealth
+      path: "/get-tadhealth",
+      component: GetTadHealth,
+    },
+    {
+      path: "/join-community",
+      component: GetTadHealthForm,
     },
     {
       path: "/contact",

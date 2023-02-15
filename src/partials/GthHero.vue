@@ -23,7 +23,7 @@
             <!-- Buttons -->
             <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 mb-12 md:mb-20" data-aos="fade-right" data-aos-delay="300">
               <div>
-                <router-link class="btn text-white bg-green-500 hover:bg-green-400 w-full shadow-sm" to="/signup">Join The Community</router-link>
+                <router-link class="btn text-white bg-green-500 hover:bg-green-400 w-full shadow-sm" to="/join-community">Join The Community</router-link>
               </div>
               <!-- <div>
                 <router-link class="btn text-gray-600 bg-white hover:bg-blue-100 hover:text-blue-600 w-full shadow-sm" to="/signin">Sign In</router-link>

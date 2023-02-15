@@ -18,7 +18,7 @@
             <li class="ml-3">
               <router-link
                 class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full shadow-sm"
-                to="/signup"
+                to="/join-community"
                 >Join The Community</router-link
               >
             </li>
