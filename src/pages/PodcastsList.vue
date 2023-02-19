@@ -11,7 +11,8 @@
       <div
         class="grid grid-flow-col sm:auto-cols-max justify-start sm:justify-end gap-2 m-5"
       >
-        <button class="btn bg-green-500 hover:bg-green-400 text-white">
+      <router-link to="/admin/upload-podcast" >
+<button class="btn bg-green-500 hover:bg-green-400 text-white">
           <svg
             class="w-4 h-4 fill-current opacity-50 shrink-0"
             viewBox="0 0 16 16"
@@ -22,6 +23,8 @@
           </svg>
           <span class="xs:block ml-2">Add New Podcast</span>
         </button>
+      </router-link>
+        
       </div>
       <!-- Page illustration -->
       <PodcastsTable />

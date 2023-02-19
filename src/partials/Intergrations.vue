@@ -192,7 +192,7 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-            Our technology provides you with options to deliver a simplified and high end experience to mental health and wellness in your organization. We work closely with your leadership team to customize a tailored wellness experience that fits your needs, highlighting the importance of proper coordination in achieving success. Our data-driven approach saves counselors hours of administration time and connects everyone to care options all in one place. Join TadHealth today for effortless and secure access to provide a wealth of mental health resources for your entire organization. 
+            TadHealth provides options to deliver a high-end mental health and wellness experience tailored to your organization's internal processes. Our data-driven approach saves counselors hundreds of hours of time and connects everyone to care options all in one place. Join us today for secure & streamlined access to mental health resources custom for your organization.
             </p>
           </div>
         </div>

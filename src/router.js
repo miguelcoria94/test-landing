@@ -35,6 +35,8 @@ import AdminHome from "./pages/AdminHome.vue"
 import BHHSCaseStudy from "./pages/BHHSCaseStudy.vue";
 import GetTadHealth from './pages/GetTadHealth.vue'
 import GetTadHealthForm from './pages/GetTadHealthForm.vue'
+import UploadPodcast from "./pages/UploadPodcast.vue"
+import UploadArticle from "./pages/UploadArticle.vue";
 
 const routerHistory = createWebHistory()
 
@@ -190,6 +192,16 @@ const router = createRouter({
           name: "podcasts",
           path: "podcasts",
           component: PodcastsList,
+        },
+        {
+          name: "upload-podcast",
+          path: "upload-podcast",
+          component: UploadPodcast,
+        },
+        {
+          name: "upload-article",
+          path: "upload-article",
+          component: UploadArticle,
         },
       ],
     },

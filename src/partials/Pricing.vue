@@ -218,13 +218,11 @@
           </div>
 
         <!-- Pricing tables -->
-        <div class="grid md:grid-cols-6">
-          <!-- Pricing toggle -->
+        <!-- <div class="grid md:grid-cols-6">
           <div
             class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
           ></div>
 
-          <!-- Starter price -->
           <div
             class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-1 md:order-none md:text-center mt-6 md:mt-0"
           >
@@ -232,8 +230,6 @@
               Starter
             </div>
           </div>
-
-          <!-- Agency price -->
           <div
             class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-2 md:order-none md:text-center mt-6 md:mt-0"
           >
@@ -241,8 +237,6 @@
               Advantage
             </div>
           </div>
-
-          <!-- Team price -->
           <div
             class="flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:border-l border-slate-300 order-3 md:order-none md:text-center mt-6 md:mt-0"
           >
@@ -251,7 +245,6 @@
             </div>
           </div>
 
-          <!-- Usage label -->
           <div
             class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:col-span-3"
           >
@@ -284,7 +277,6 @@
             >
           </div>
 
-          <!-- Admins & Members -->
           <div
             class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
           >
@@ -309,7 +301,6 @@
             <div class="text-sm font-medium text-slate-500 text-center">5+</div>
           </div>
 
-          <!-- File Storage -->
           <div
             class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
           >
@@ -339,46 +330,6 @@
               60GB
             </div>
           </div>
-
-          
-
-          <!-- Features label -->
-          <!-- <div
-            class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:col-span-3"
-          >
-            <span class="text-xs uppercase font-semibold text-slate-500"
-              >Features</span
-            >
-          </div>
-          <div
-            class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:border-l border-slate-300 order-1 md:order-none"
-          >
-            <span
-              class="md:hidden text-xs uppercase font-semibold text-slate-500"
-              >Features</span
-            >
-          </div>
-          <div
-            class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:border-l border-slate-300 order-2 md:order-none"
-          >
-            <span
-              class="md:hidden text-xs uppercase font-semibold text-slate-500"
-              >Features</span
-            >
-          </div>
-          <div
-            class="flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-500 bg-opacity-25 md:border-l border-slate-300 order-3 md:order-none"
-          >
-            <span
-              class="md:hidden text-xs uppercase font-semibold text-slate-500"
-              >Features</span
-            >
-          </div> -->
-
-          
-
-
-          <!-- SSO intergration -->
           <div
             class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 md:col-span-3"
           >
@@ -439,7 +390,6 @@
             </div>
           </div>
 
-          <!-- Email Notifications -->
           <div
             class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 bg-opacity-70 md:col-span-3"
           >
@@ -500,7 +450,6 @@
             </div>
           </div>
 
-          <!-- SMS Notifications  -->
           <div
             class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-200 bg-opacity-70 md:col-span-3"
           >
@@ -558,7 +507,6 @@
             </div>
           </div>
 
-          <!-- Calendar Integration  -->
           <div
             class="hidden md:flex flex-col justify-center p-4 md:px-6 bg-slate-100 md:col-span-3"
           >
@@ -619,7 +567,6 @@
           
 
 
-          <!-- CTA row -->
           <div
             class="hidden md:flex flex-col justify-center px-4 md:px-6 py-2 bg-slate-100 bg-opacity-70 md:col-span-3"
           ></div>
@@ -653,7 +600,7 @@
               Request A Demo
             </a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
