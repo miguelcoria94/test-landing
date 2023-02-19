@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2 font-cabinet-grotesk">Join over 2M creatives from around the world</h2>
+          <h2 class="h2 font-cabinet-grotesk">Join the wellness counselor network for K-12 schools, Universities, public, private, and charter across U.S. & Canada.</h2>
         </div>
 
         <!-- Section content -->

@@ -1,12 +1,12 @@
 <template>
-  <section class="bg-gray-800">
+  <section class="bg-green-500">
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="py-12 md:py-20">
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2 font-cabinet-grotesk text-gray-100">Trending collections</h2>
+          <h2 class="h2 font-cabinet-grotesk text-gray-900">Trending collections</h2>
         </div>
 
         <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
