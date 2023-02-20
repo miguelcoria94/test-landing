@@ -4,7 +4,7 @@
     <!-- Bg -->
     <div class="absolute inset-0 rounded-bl-[100px] bg-gray-50 pointer-events-none -z-10" aria-hidden="true"></div>
 
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 mb-20">
       <div class="pt-32 pb-12 md:pt-40 md:pb-20">
 
         <!-- Hero content -->
@@ -30,7 +30,7 @@
               </div> -->
             </div>
             <!-- Stats -->
-            <div class="inline-flex items-center space-x-4 md:space-x-6" data-aos="fade-right" data-aos-delay="400">
+            <!-- <div class="inline-flex items-center space-x-4 md:space-x-6" data-aos="fade-right" data-aos-delay="400">
               <div>
                 <div class="font-cabinet-grotesk text-2xl font-extrabold">27M</div>
                 <div class="text-gray-500">Inspiration</div>
@@ -49,7 +49,7 @@
                 <div class="font-cabinet-grotesk text-2xl font-extrabold">2M+</div>
                 <div class="text-gray-500">Creatives</div>
               </div>
-            </div>
+            </div> -->
           </div>
 
           <!-- Image -->
