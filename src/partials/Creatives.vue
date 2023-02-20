@@ -118,7 +118,6 @@
           <!-- Content -->
           <div class="md:w-1/2 md:pl-10 lg:pl-20">
             <div class="text-center md:text-left">
-              <img class="inline-block mb-12" src="../images/creatives.jpg" width="330" height="181" alt="Creatives" />
               <h3 class="h3 font-cabinet-grotesk text-4xl mb-4">More than a community</h3>
               <p class="text-xl text-gray-500 mb-6">Get access to monthly education webinars from leading experts in funding for schools, wellness, psychology, and education helping you learn about current trends, events, and curriculum you can put into practice. </p>
               <div>
