@@ -37,6 +37,7 @@ import GetTadHealth from './pages/GetTadHealth.vue'
 import GetTadHealthForm from './pages/GetTadHealthForm.vue'
 import UploadPodcast from "./pages/UploadPodcast.vue"
 import UploadArticle from "./pages/UploadArticle.vue";
+import store from "./main";
 
 const routerHistory = createWebHistory()
 
@@ -55,6 +56,7 @@ const router = createRouter({
     {
       path: "/",
       component: Home,
+      name: "Home",
     },
     {
       path: "/apply",
@@ -173,17 +175,27 @@ const router = createRouter({
       component: Podcasts,
     },
     {
+      path: "/login",
+      name: "AdminLogin",
+      component: AdminLogin,
+    },
+    {
       path: "/admin",
       component: Admin,
+      beforeEnter: (to, from, next) => {
+        if (!store.state.user) {
+          next({ name: "AdminLogin" });
+        } else {
+          next();
+        }
+      },
+
       children: [
         {
           path: "home",
           component: AdminHome,
         },
-        {
-          path: "login",
-          component: AdminLogin,
-        },
+
         {
           path: "articles",
           component: ArticlesList,

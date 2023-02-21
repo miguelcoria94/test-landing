@@ -101,6 +101,7 @@
 
 <script>
 import { adminLogin } from "../api/admin";
+import store from "../main.js"
 
 export default {
   name: "AdminLogin",
@@ -119,9 +120,16 @@ export default {
           });
           return;
         } else {
-          
+          const { data } =  await adminLogin({
+          username: this.email,
+          password: this.password,
+        });
+        store.commit('setUser', data)
+        console.log(store)
           this.$router.push({ path: '/admin/home', replace: true })
-          
+          this.$toast.success(`You have been logged in!`, {
+            position: "top-right",
+          });
           return 
         }
         

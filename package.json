@@ -18,7 +18,8 @@
     "vue": "^3.2.20",
     "vue-recaptcha": "^2.0.2",
     "vue-router": "^4.0.12",
-    "vue2-editor": "^2.10.3"
+    "vue2-editor": "^2.10.3",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.1.0",
