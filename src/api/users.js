@@ -15,3 +15,7 @@ export function sendNewsLetterEmail(body) {
 export function requestDemo(body) {
   return axios.post("/request-demo/", body);
 }
+
+export function getTad(body) {
+  return axios.post("/get-tad/", body);
+}

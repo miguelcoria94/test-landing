@@ -185,17 +185,6 @@ export default {
           });
           return
         }
-        // await contactUs({
-        //   first_name: this.firstName,
-        //   last_name: this.lastName,
-        //   email: this.email,
-        //   subject: this.subject,
-        //   message: this.message,
-        // });
-        // this.$toast.success(`We have received your message!`, {
-        //   position: "top-right",
-        // });
-        // this.$router.push("/");
         await requestDemo({
           first_name: this.firstName,
           last_name: this.lastName,
@@ -205,15 +194,6 @@ export default {
           phone_number: this.phoneNumber,
           hear_about_us: this.ref,
         });
-        // alert(
-        //     this.firstName +
-        //     this.lastName +
-        //     this.email +
-        //     this.organizationName +
-        //     this.organizationUrl +
-        //     this.phoneNumber +
-        //     this.ref
-        // )
       } catch (e) {
         this.$toast.error(`There was an error submitting your message!`, {
           position: "top-right",

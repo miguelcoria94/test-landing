@@ -63,19 +63,19 @@
                   <div class="w-full px-3">
                     <label
                       class="block text-sm font-medium mb-1"
-                      for="audiencesize"
+                      for="contact_person"
                       >Contact <span class="text-rose-500">*</span></label
                     >
                     <select
-                      id="audiencesize"
+                      id="contact_person"
                       class="form-select py-2 w-full"
-                      v-model="audiencesize"
+                      v-model="contact_person"
                     >
-                      <option value="5k">Counselor</option>
-                      <option value="10k">Teacher</option>
-                      <option value="100k">Administrator</option>
-                      <option value="1million">Board Member</option>
-                      <option value="5million">Head of School</option>
+                      <option value="Counsel">Counselor</option>
+                      <option value="Teacher">Teacher</option>
+                      <option value="Administrator">Administrator</option>
+                      <option value="Board Member">Board Member</option>
+                      <option value="Head of School">Head of School</option>
                     </select>
                   </div>
                 </div>
@@ -83,18 +83,19 @@
                   <div class="w-full px-3">
                     <label
                       class="block text-sm font-medium mb-1"
-                      for="audiencesize"
+                      for="institution_type"
                       >Institution Type <span class="text-rose-500">*</span></label
                     >
                     <select
-                      id="audiencesize"
+                      id="institution_type"
                       class="form-select py-2 w-full"
-                      v-model="audiencesize"
+                      v-model="institution_type"
                     >
-                      <option value="5k">Private High School</option>
-                      <option value="10k">Public High Schoolk</option>
-                      <option value="100k">Private College</option>
-                      <option value="1million">Private College</option>
+                      <option value="Private High School">Private High School</option>
+                      <option value="Public High School">Public High School</option>
+                      <option value="Private College">Private College</option>
+                      <option value="Public College">public College</option>
+                      
                     </select>
                   </div>
                 </div>
@@ -120,13 +121,13 @@
                   <div class="w-full px-3">
                     <label
                       class="block text-gray-300 text-sm font-medium mb-1"
-                      for="email"
+                      for="phone_number"
                       >Phone Number <span class="text-red-600">*</span></label
                     >
                     <input
-                        v-model="email"
-                      id="email"
-                      type="email"
+                        v-model="phone_number"
+                      id="phone_number"
+                      type="phone_number"
                       class="form-input w-full text-gray-300"
                       placeholder="555-555-5555"
                       required
@@ -134,24 +135,7 @@
                   </div>
                 </div>
                 
-                <div class="text-sm text-gray-400 text-center">
-                  I agree to be contacted by TAD Health
-                  <a
-                    class="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"
-                    href="#0"
-                    >Privacy Policy</a
-                  >.
-                </div>
-                <div class="flex flex-wrap -mx-3 mb-4 mt-5">
-                  <div class="w-full px-3">
-                    <VueRecaptcha
-                        :sitekey="siteKey"
-                        :load-recaptcha-script="true"
-                        @verify="handleSuccess"
-                        @error="handleError"
-                    ></VueRecaptcha>
-                  </div>
-                </div>
+                
                 <div class="flex flex-wrap -mx-3 mt-6">
                   <div class="w-full px-3">
                     <button
@@ -179,7 +163,7 @@ import { VueRecaptcha } from 'vue-recaptcha';
 import Header from "./../partials/Header.vue";
 import PageIllustration from "../partials/PageIllustration.vue";
 import Footer from "./../partials/Footer.vue";
-import {signUpEntrepreneur} from "../api/users";
+import { getTad } from "../api/users";
 
 export default {
   name: "SignUp",
@@ -191,33 +175,21 @@ export default {
   },
   data() {
     return {
-      firstName: null,
-      lastName: null,
+      contact_person: null,
+      institution_type: null,
       email: null,
-      companyName: null,
-      password: null,
-      siteKey: import.meta.env.VITE_RECAPTCHA_SITE_KEY_DEV,
-      verified: false
+      phone_number: null
     };
   },
   methods: {
-    handleSuccess() {
-      this.verified = true
-    },
-
-    handleError() {
-      this.$toast.error(`We couldn't prove you are human!`, {
-        position: "top-right",
-      });
-    },
+    
     async submit() {
       try {
         if (
-            !this.firstName ||
-            !this.lastName ||
+            !this.contact_person ||
+            !this.institution_type ||
             !this.email ||
-            !this.companyName ||
-            !this.password
+            !this.phone_number
         ) {
           this.$toast.warning(`Please fill out the entire form`, {
             position: "top-right",
@@ -225,21 +197,19 @@ export default {
           return;
         }
 
-        if ( this.verified === false){
-          this.$toast.error(`Please verify you are human!`, {
-            position: "top-right",
-          });
-          return
-        }
-        await signUpEntrepreneur({
-          first_name: this.firstName,
-          last_name: this.lastName,
+        
+        await getTad({
+          contact_person: this.contact_person,
+          institution_type: this.institution_type,
           email: this.email,
-          password: this.password,
-          company_name: this.companyName,
+          phone_number: this.phone_number
+        });
+        this.$router.push('/')
+        this.$toast.success(`We have received your information!`, {
+          position: "top-right",
         });
       } catch (e) {
-        this.$toast.error(`There was an error submitting your message!`, {
+        this.$toast.error(`There was an error submitting your request!`, {
           position: "top-right",
         });
       }
