@@ -12,19 +12,23 @@
       <Creatives />
       <GthPricing />
       <GthTestimonials />
+      <Faqs />
+      <Blog />
       <!-- <Inspiration />
       
       <Creatives />
       
       <Testimonials />
-      <Faqs />
-      <Blog />
-      <Cta /> -->
+    
+       -->
+      <GthFaq />
+      <GthBlog />
+      <GthCta />
 
     </main>
     
     <!-- Site footer -->
-
+<GthFooter />
   </div>
 </template>
 
@@ -36,10 +40,10 @@ import GthCarousel from '../partials/GthCarousel.vue'
 import Creatives from '../partials/Creatives.vue'
 import GthPricing from '../partials/GthPricing.vue'
 import GthTestimonials from '../partials/GthTestimonials.vue'
-// import Faqs from '../partials/Faqs.vue'
-// import Blog from '../partials/Blog.vue'
-// import Cta from '../partials/Cta.vue'
-// import Footer from '../partials/Footer.vue'
+import GthFaq from '../partials/GthFaq.vue'
+import GthBlog from '../partials/GthBlog.vue'
+import GthCta from '../partials/GthCta.vue'
+import GthFooter from '../partials/GthFooter.vue'
 
 export default {
   name: 'Home',
@@ -49,7 +53,11 @@ export default {
     GthCarousel,
     Creatives,
     GthPricing,
-    GthTestimonials
+    GthTestimonials,
+    GthFaq,
+    GthBlog,
+    GthFooter,
+    GthCta
   },
 }
 </script>

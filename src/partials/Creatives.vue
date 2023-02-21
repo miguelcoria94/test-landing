@@ -29,15 +29,7 @@
                     </div>
                     <div class="mb-5">
                       <a class="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline" href="#0">Daniel Khan</a>
-                      <div class="text-sm font-medium text-gray-500">@art-daniel-k</div>
-                    </div>
-                    <div>
-                      <a class="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
-                        <svg class="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
-                          <path class="fill-white opacity-70" d="M11 5H7V1a1 1 0 0 0-2 0v4H1a1 1 0 0 0 0 2h4v4a1 1 0 0 0 2 0V7h4a1 1 0 0 0 0-2Z" />
-                        </svg>
-                        Follow
-                      </a>
+                      <div class="text-sm font-medium text-gray-500">"some quote here"</div>
                     </div>
                   </div>
                 </div>
@@ -50,16 +42,9 @@
                     </div>
                     <div class="mb-5">
                       <a class="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline" href="#0">Daniel Khan</a>
-                      <div class="text-sm font-medium text-gray-500">@art-daniel-k</div>
+                      <div class="text-sm font-medium text-gray-500">"some quote here"</div>
                     </div>
-                    <div>
-                      <a class="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
-                        <svg class="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
-                          <path class="fill-white opacity-70" d="M11 5H7V1a1 1 0 0 0-2 0v4H1a1 1 0 0 0 0 2h4v4a1 1 0 0 0 2 0V7h4a1 1 0 0 0 0-2Z" />
-                        </svg>
-                        Follow
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -74,15 +59,7 @@
                     </div>
                     <div class="mb-5">
                       <a class="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline" href="#0">Daniel Khan</a>
-                      <div class="text-sm font-medium text-gray-500">@art-daniel-k</div>
-                    </div>
-                    <div>
-                      <a class="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
-                        <svg class="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
-                          <path class="fill-white opacity-70" d="M11 5H7V1a1 1 0 0 0-2 0v4H1a1 1 0 0 0 0 2h4v4a1 1 0 0 0 2 0V7h4a1 1 0 0 0 0-2Z" />
-                        </svg>
-                        Follow
-                      </a>
+                      <div class="text-sm font-medium text-gray-500">"some quote here"</div>
                     </div>
                   </div>
                 </div>
@@ -99,15 +76,7 @@
                     </div>
                     <div class="mb-5">
                       <a class="inline-block font-cabinet-grotesk font-bold text-xl decoration-blue-500 decoration-2 underline-offset-2 hover:underline" href="#0">Daniel Khan</a>
-                      <div class="text-sm font-medium text-gray-500">@art-daniel-k</div>
-                    </div>
-                    <div>
-                      <a class="btn-sm text-white bg-gray-800 hover:bg-gray-900 shadow-sm" href="#0">
-                        <svg class="mr-2" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
-                          <path class="fill-white opacity-70" d="M11 5H7V1a1 1 0 0 0-2 0v4H1a1 1 0 0 0 0 2h4v4a1 1 0 0 0 2 0V7h4a1 1 0 0 0 0-2Z" />
-                        </svg>
-                        Follow
-                      </a>
+                      <div class="text-sm font-medium text-gray-500">"some quote here"</div>
                     </div>
                   </div>
                 </div>
