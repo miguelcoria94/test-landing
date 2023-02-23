@@ -5,16 +5,16 @@
     <!-- Filters -->
     <ul class="flex flex-wrap text-sm border-b border-slate-200 dark:border-slate-200">
       <li class="px-3 -mb-px">
-        <a class="block py-3 font-medium  dark:text-slate-800 border-b-2 border-mint-500" href="#0">Coding</a>
+        <a class="block py-3 font-medium  dark:text-slate-800 border-b-2 border-mint-500" href="#0">Trending</a>
       </li>
       <li class="px-3 -mb-px">
-        <a class="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">Startups</a>
+        <a class="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">Wellness</a>
       </li>
       <li class="px-3 -mb-px">
-        <a class="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">Tutorials</a>
+        <a class="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">Education</a>
       </li>
       <li class="px-3 -mb-px">
-        <a class="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">Indie Hacking</a>
+        <a class="block py-3 text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300" href="#0">Community</a>
       </li>
     </ul>
 
