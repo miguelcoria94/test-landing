@@ -125,7 +125,8 @@ export default {
           password: this.password,
         });
         store.commit('setUser', data)
-        console.log(store)
+        localStorage.setItem("auth._token.local", `Bearer ${data.access_token}`);
+        console.log(data)
           this.$router.push({ path: '/admin/home', replace: true })
           this.$toast.success(`You have been logged in!`, {
             position: "top-right",

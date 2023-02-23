@@ -11,7 +11,7 @@
     </div>
     <div class="text-center mb-8">
       <div class="font-aspekta font-[650] mb-1">Never miss an update!</div>
-      <p class="text-sm text-slate-500 dark:text-slate-400">Subscribe and join 100K+ developers.</p>
+      <p class="text-sm text-slate-500 dark:text-slate-400">Subscribe to join our thought leadership news updates. </p>
     </div>
     <form>
       <div class="mb-2">

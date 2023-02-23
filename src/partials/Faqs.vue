@@ -14,16 +14,13 @@
               What do I get for signing up?
             </h4>
             <p class="text-lg text-gray-400">
-              Access to a new network of information, resources, and potential
-              new clients.
+              Access to a new network of information, resources, and partners.
             </p>
           </li>
           <li>
             <h4 class="text-xl font-medium mb-2">What does access mean?</h4>
             <p class="text-lg text-gray-400">
-              Whether you are a creator, professional, or company by joining our
-              network you grow your reach internally creating new engagement
-              metrics and insights you never had before.
+              Whether you are a school, district, or organization joining the platform you grow your reach of resources with new engagement metrics and insights you never had before.
             </p>
           </li>
           <li>
@@ -35,19 +32,25 @@
             </p>
           </li>
           <li>
-            <h4 class="text-xl font-medium mb-2">How does it work?</h4>
+            <h4 class="text-xl font-medium mb-2">What does a wellness experience mean?</h4>
             <p class="text-lg text-gray-400">
-              Simply sign up, we interview you, and from there you can start to
-              create, access, and grow your impact for mental health.
+              TadHealth has created an internal digital platform and community of resources that can be leveraged to your advantage to expand and develop your connectedness so individuals can thrive.
             </p>
           </li>
           <li>
             <h4 class="text-xl font-medium mb-2">
-              What if I am not a licensed professional?
+              How does it work?
             </h4>
             <p class="text-lg text-gray-400">
-              If you are a non-clinical mental health expert we value your
-              impact and simply apply as a creator to get on our network.
+              Simply request a demo, or take a quiz, and from there you can find the right package, access, and our team will reach out so you can grow your impact for mental health.
+            </p>
+          </li>
+          <li>
+            <h4 class="text-xl font-medium mb-2">
+              Does TadHealth provide clinicians? 
+            </h4>
+            <p class="text-lg text-gray-400">
+              We offer a network of clinical mental health experts and availability so you can measure your needs and impact in real-time. 
             </p>
           </li>
           <li>
@@ -55,10 +58,7 @@
               What are premium virtual events?
             </h4>
             <p class="text-lg text-gray-400">
-              Companies can grow their social impact around mental health by
-              hosting virtual events on our platform and network. If you are
-              interested in giving back, simply apply and we do the rest of the
-              work.
+              Companies can grow their social impact around mental health by hosting virtual events on our platform and network. If you are interested in giving back, simply apply and we do the rest of the work.
             </p>
           </li>
         </ul>
