@@ -5,8 +5,9 @@
 
     <!-- Page content -->
     <main class="grow">
+      <AudioPlayer ref="audio" />
       <!-- Content -->
-      <section class="pb-12 pt-16 md:pb-10 md:pt-40">
+      <section class="pb-12 pt-5 md:pb-10 md:pt-20">
         <div class="max-w-6xl mx-auto px-4 sm:px-6">
           <div class="pb-12 md:pb-20">
             <div class="md:flex md:justify-between md:space-x-14">
@@ -20,7 +21,6 @@
                     Latest Podcasts
                   </h2>
                 </div>
-
                 <!-- Podcasts -->
                 <div>
                   <div
@@ -53,7 +53,7 @@
                       </div>
                     </div>
                     <div class="shrink-0 sm:ml-5">
-                      <router-link :key="$route.fullPath"
+                      <router-link
                         :to="'/podcasts/' + item.id"
                         aria-label="play"
                       >
@@ -267,6 +267,7 @@ import Footer from "../partials/Footer.vue";
 import PodcastItem from "../partials/PodcastItem.vue";
 import { getPodcasts } from "../api/resources.js";
 
+
 export default {
   name: "Podcast",
   components: {
@@ -281,6 +282,11 @@ export default {
     return {
       items: null,
     };
+  },
+   watch: {
+            '$route.params.slug': function () {
+                this.loadSlides ()
+            }
   },
   async mounted() {
     const { data } = await getPodcasts();

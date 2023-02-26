@@ -1,12 +1,12 @@
 <template>
   <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="pb-12 pt-16 md:pb-20 md:pt-40">
+      <div class="pb-12 pt-16 md:pb-10 md:pt-40">
         <div class="relative">
   
           <!-- Background -->
           <div class="absolute inset-0 bg-gradient-to-br from-green-500 to-green-700 rounded-3xl -mx-20 -z-10 overflow-hidden" aria-hidden="true">
-            <img class="w-full h-full object-cover rounded-3xl" src="../images/podcast-image.webp" width="1270" height="408" alt="Podcast image">
+            <img class="w-full h-full object-cover rounded-3xl" src="../images/WYM2.jpeg" width="1270" height="408" alt="Podcast image">
           </div>
   
           <!-- Content -->
@@ -15,8 +15,8 @@
               <!-- Left content -->
               <div class="max-w-3xl">
                 <!-- Copy -->
-                <h1 class="h2 font-hkgrotesk text-slate-100 mb-4">{{podcast.name}}</h1>
-                <div class="font-hkgrotesk text-white font-medium opacity-80 mb-8">{{podcast.author}} · {{podcast.date}} · {{podcast.album}}</div>
+                <h1 class="h2 font-hkgrotesk text-slate-100 mb-4" v-if="podcast">{{podcast.title}}</h1>
+                <div class="font-hkgrotesk text-white font-medium opacity-80 mb-8" v-if="podcast">{{formattedDate(podcast.created_at)}}</div>
 
                 <!-- Player -->
                 <div class="relative px-4 py-5" aria-label="Audio Player" role="region">
@@ -102,7 +102,7 @@
 
                   </div>
 
-                  <audio id="audiofile" :src="AudioFile" ref="audio" @loadedmetadata="loadedMetadata" @timeupdate="timeUpdate" @ended="ended"></audio>
+                  <audio v-if="podcast" id="audiofile" src="https://us-southeast-1.linodeobjects.com/fileuploads/tad-landing-org/resources/podcasts/f3e7dba3-313b-4c57-ba1d-4ab68e751669?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=I8G0J5NY0B5EW5704RUH%2F20230223%2Fus-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20230223T210610Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=16f42efea6fbcbb3ff59e4be124c10e9fce5984e50da2dd4763733cfc5ee3a07" ref="audio" @loadedmetadata="loadedMetadata" @timeupdate="timeUpdate" @ended="ended"></audio>
 
                 </div>
 
@@ -118,6 +118,7 @@
 
 <script>
 import { ref, reactive, onMounted, onUnmounted } from 'vue'
+import { getPodcastUrl } from "../api/resources.js";
 
 import AudioFile from '../audio/audio.mp3'
 
@@ -127,8 +128,25 @@ export default {
   name: 'AudioPlayer',
   data(){
     return {
-      podcast: {name: "How to make better friends",author: "Ben Greiner", date: "Jan 25", album: "Episode 234"}
+      podcast: null
     }
+  },
+  methods: {
+    formattedDate(time) {
+      const el = new Date(time);
+      return el.toLocaleDateString() + " " + el.toLocaleTimeString();
+    },
+  },
+  async created() {
+    try {
+      const { data } = await getPodcastUrl(this.$route.params.slug);
+    this.podcast = data
+
+    } catch (e){
+
+    }
+    
+
   },
 
   

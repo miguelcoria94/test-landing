@@ -6,8 +6,6 @@
     >
       <!-- Site header -->
       <HeaderDash
-        :sidebarOpen="sidebarOpen"
-        @toggle-sidebar="sidebarOpen = !sidebarOpen"
       />
 
       <main>
@@ -16,7 +14,7 @@
             Upload New Podcast
           </h2>
 
-          <form @submit.prevent="submit()" class="bg-white p-5">
+          <form @submit.prevent="submit" class="bg-white p-5">
                 <div class="flex flex-wrap -mx-3 mb-4">
                   <div class="w-full px-3">
                     <label
@@ -58,10 +56,12 @@
                       >Thumbnail Image <span class="text-red-600">*</span></label
                     >
                     <input
-                    v-on:change="onImageSelected"
+                    @change="handleFileInput"
                       id="thumbnail_in"
                       type="file"
                       class="form-input w-full text-gray-300"
+                      accept="image/png, image/gif, image/jpeg"
+                      
                       required
                     />
                   </div>
@@ -70,11 +70,22 @@
                   <div class="w-full px-3">
                     <label
                       class="block text-gray-300 text-sm font-medium mb-1"
+                      for="thumbnail_in"
+                      >Image Preview <i class="las la-image"></i></label
+                    >
+                    <img :src="imageUrl" class="h-48 rounded m-5">
+                  </div>
+                </div>
+                
+                <div class="flex flex-wrap -mx-3 mb-4">
+                  <div class="w-full px-3">
+                    <label
+                      class="block text-gray-300 text-sm font-medium mb-1"
                       for="podcast_in"
                       >Audio File <span class="text-red-600">*</span></label
                     >
                     <input
-                       accept="audio/*" v-on:change="onFileSelected"
+                       accept="audio/*" @change="onFileSelected"
                       id="podcast_in"
                       type="file"
                       class="form-input w-full text-gray-300"
@@ -106,7 +117,7 @@ import { ref } from "vue";
 import HeaderDash from "../partials/HeaderDash.vue";
 import PodcastBanner from "../partials/PodcastBanner.vue";
 import ArticleBanner from "../partials/ArticleBanner.vue";
-import uploadPodcast from "../api/resources.js"
+import { uploadPodcast } from "../api/resources.js"
 
 export default {
   name: "UploadPodcast",
@@ -122,7 +133,8 @@ export default {
       podcast_title: null,
       tags: null,
       target_audience: null,
-      podcast_description: null
+      podcast_description: null,
+      imageUrl: null
     }
   },
   methods: {
@@ -140,12 +152,13 @@ export default {
           return;
         }
 
-        await uploadPodcast({
-          podcast_in: this.podcast_in,
-          thumbnail_in: this.thumbnail_in,
-          podcast_title: this.podcast_title,
-          podcast_description: this.podcast_description
-        })
+        const formData = new FormData()
+        formData.append("podcast_in", this.podcast_in)
+        formData.append("thumbnail_in", this.thumbnail_in)
+        formData.append("podcast_title", this.podcast_title)
+        formData.append("podcast_description", this.podcast_description)
+
+        await uploadPodcast(formData)
 
         this.$router.push('/admin/home')
         this.$toast.success(`You created a new podcast`, {
@@ -161,12 +174,9 @@ export default {
       this.podcast_in = event.target.files[0]
       console.log(event.target.files[0])
     },
-    onImageSelected(event) {
-      const selectedFile = event.target.files[0];
-      if (!selectedFile.type.startsWith('image/')) {
-        return alert('Please select an image file.');
-      }
-      this.thumbnail_in = selectedFile
+    handleFileInput(event) {
+      this.thumbnail_in = event.target.files[0];
+      this.imageUrl = URL.createObjectURL(this.thumbnail_in );
     }
   }
 };
