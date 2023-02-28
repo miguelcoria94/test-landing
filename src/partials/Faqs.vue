@@ -53,14 +53,6 @@
               We offer a network of clinical mental health experts and availability so you can measure your needs and impact in real-time. 
             </p>
           </li>
-          <li>
-            <h4 class="text-xl font-medium mb-2">
-              What are premium virtual events?
-            </h4>
-            <p class="text-lg text-gray-400">
-              Companies can grow their social impact around mental health by hosting virtual events on our platform and network. If you are interested in giving back, simply apply and we do the rest of the work.
-            </p>
-          </li>
         </ul>
       </div>
     </div>

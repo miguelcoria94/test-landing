@@ -6,9 +6,7 @@
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <h2 class="h2 mb-4">Don't take our word for it</h2>
           <p class="text-xl text-gray-400">
-            Hear from some of our creators, professionals, and companies that
-            have helped spread mental health awareness from the TadHealth
-            premium network and community.
+            Hear from some of our creators, professionals, and organizations that have helped grow their mental health programs from the TadHealth premium network and community.
           </p>
         </div>
 
@@ -67,7 +65,7 @@
               <div class="relative inline-flex flex-col mb-4">
                 <img
                   class="rounded-full"
-                  src="../images/doran.jpg"
+                  src="../images/ally.jpeg"
                   width="48"
                   height="48"
                   alt="Testimonial 02"
@@ -84,20 +82,16 @@
               </div>
             </div>
             <blockquote class="text-lg text-gray-400 grow">
-              — As an influencer, one of my biggest priorities is driving
-              awareness to mental health care. I’m so happy that tad-health is
-              giving me the chance to connect my content with thousands of
-              students and help them get access to the important mental health
-              support everyone deserves.
+              — TadHealth has given us a way to substantially improve access points and based on my past experience with such a fragmented system pulling in extra help through a platform like this to mental health care professionals and programs is more important than ever.
             </blockquote>
             <div
               class="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700"
             >
-              <cite class="text-gray-200 not-italic">Caitlin Doran</cite> -
+              <cite class="text-gray-200 not-italic">Alison Norman </cite> -
               <a
                 class="text-green-600 hover:text-gray-200 transition duration-150 ease-in-out"
                 href="#0"
-                >Tik Tok Influencer</a
+                >BHHS Counseling</a
               >
             </div>
           </div>

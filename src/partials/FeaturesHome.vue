@@ -150,7 +150,7 @@
                       <a
                         class="text-gray-500 transition duration-150 ease-in-out"
                         href="#0"
-                        ><em> - "Director of Counseling BHUSD"</em></a
+                        ><em> - "Lead Wellness Counselor BHUSD"</em></a
                       >
                     </div>
                   </div>

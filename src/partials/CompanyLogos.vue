@@ -250,7 +250,7 @@ export default {
           quote:
             "“ TadHealth has given us a way to substantially improve access points and based on my past experience with such a fragmented system pulling in extra help through a platform like this to mental health care professionals and programs is more important than ever. “",
           name: "Alison-Norman Franks",
-          role: "Director of Counseling",
+          role: "Lead Wellness Counselor",
           team: " BHUSD",
           link: "https://bhhs.bhusd.org/",
         },

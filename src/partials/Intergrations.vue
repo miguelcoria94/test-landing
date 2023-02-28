@@ -192,7 +192,7 @@
               data-aos="fade-up"
               data-aos-delay="200"
             >
-            TadHealth provides options to deliver a high-end mental health and wellness experience tailored to your organization's internal processes. Our data-driven approach saves counselors hundreds of hours of time and connects everyone to care options all in one place. Join us today for secure & streamlined access to mental health resources custom for your organization.
+            TadHealth provides options to manage day-to-day wellness tailored to your organization's internal processes. Our data-driven approach saves counselors hundreds of hours of time while meeting requirements to connect everyone to care all in one place. Join us today for a secure & streamlined approach to mental health. 
             </p>
           </div>
         </div>

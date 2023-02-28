@@ -9,7 +9,7 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="h1 font-playfair-display mb-4">Mental Health = Successful Individuals</h1>
+          <h1 class="h1 font-playfair-display mb-4">Stay Ahead of Mental Health Trends</h1>
           <p class="text-xl text-gray-400 mb-8">Learn more below about the latest trends, insights, and education about mental health from experts in the space. </p>
           <!-- Subscribe form -->
           <form>
