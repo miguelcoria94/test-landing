@@ -16,7 +16,6 @@
           <form
             @submit.prevent="submit"
             class="bg-white p-5"
-            style="height: 700px"
           >
             <div class="flex flex-wrap -mx-3 mb-4">
               <div class="w-full px-3">

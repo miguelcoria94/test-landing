@@ -65,7 +65,7 @@
                 </li>
               </ul>
               <div class="pt-5 mt-6">
-                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="#0">Take The Quiz</a>
+                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="https://vbp929kxyev.typeform.com/to/cGw2HkwS" target="_blank">Take The Quiz</a>
               </div>
             </div>
 
@@ -132,7 +132,7 @@
                 </li>
               </ul>
               <div class="pt-5 mt-6">
-                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="#0">Take The Quiz</a>
+                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="https://vbp929kxyev.typeform.com/to/cGw2HkwS" target="_blank">Take The Quiz</a>
               </div>
             </div>
 
@@ -211,7 +211,7 @@
                 </li>
               </ul>
               <div class="pt-5 mt-6">
-                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="#0">Take The Quiz</a>
+                <a class="btn-sm text-white bg-green-500 hover:bg-green-400 w-full" href="https://vbp929kxyev.typeform.com/to/cGw2HkwS" target="_blank">Take The Quiz</a>
               </div>
             </div>
 

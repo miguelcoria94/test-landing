@@ -65,7 +65,9 @@
       <FeaturesHome />
       <Tabs />
       <Target />
+      <News />
       <Newsletter />
+      
     </main>
 
     <!-- Site footer -->
@@ -84,6 +86,7 @@ import Tabs from "./../partials/Tabs.vue";
 import Target from "./../partials/Target.vue";
 import Newsletter from "./../partials/Newsletter.vue";
 import Footer from "./../partials/Footer.vue";
+import News from "./../partials/News.vue"
 
 export default {
   name: "Home",
@@ -98,6 +101,7 @@ export default {
     Newsletter,
     Footer,
     Head,
+    News
   },
 };
 </script>

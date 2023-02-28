@@ -22,6 +22,7 @@
                   </h2>
                 </div>
                 <!-- Podcasts -->
+                
                 <div>
                   <div
                     class="sm:flex items-center justify-between p-5 border-b border-slate-100"
@@ -40,12 +41,14 @@
                       <div>
                         <h3
                           class="font-hkgrotesk font-extrabold text-lg mb-1"
-                        ></h3>
+                        >
+                        {{item.title}}
+                        </h3>
                         <div
                           class="font-hkgrotesk font-medium text-sm text-slate-500 mb-1"
                         >
                           <span class="text-slate-300">·</span>
-                          {{ item.create_at }}
+                          {{ formattedDate(item.created_at) }}
                         </div>
                         <div class="text-sm text-slate-500">
                           {{ item.description }}
@@ -276,6 +279,12 @@ export default {
     Carousel,
     Cta,
     Footer,
+  },
+  methods: {
+    formattedDate(time) {
+      const date = new Date(time);
+      return date.toLocaleDateString();
+    },
   },
 
   data() {

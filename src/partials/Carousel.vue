@@ -37,61 +37,61 @@
             <div class="carousel swiper-container">
               <div class="swiper-wrapper">
                 <!-- Carousel items -->
-                <div class="swiper-slide h-auto flex flex-col max-w-[446px] group">
-                  <router-link to="/podcast">
+                <div class="swiper-slide h-auto flex flex-col max-w-[446px] group rounded-3xl b">
+                  <a target="_blank" href="https://open.spotify.com/show/5GoLkQD2BV7184NjqPo1k4?si=125c76234e7147ed&nd=1" >
                     <div class="group-odd:rotate-1 group-even:-rotate-1">
-                      <div class="absolute inset-0 -z-10">
-                        <img class="w-full h-full object-cover rounded-3xl" src="../images/carousel-01.png" width="446" height="200" alt="Carousel 01" />
+                      <div class="absolute inset-0 -z-10 ">
+                        <img class="opacity-30 w-full h-full object-cover rounded-3xl shadow-xl" src="../images/mental.jpeg" width="446" height="200" alt="Carousel 01" />
                       </div>
                       <div class="p-5 pb-14">
-                        <div class="font-hkgrotesk font-extrabold text-white text-xl leading-tight mb-1">Sick Leave for Indie Founders?</div>
-                        <div class="font-hkgrotesk text-white font-medium text-sm opacity-80 mb-4">Indie Stories · Jan 24 · Episode 234</div>
-                        <img src="../images/play.svg" width="48" height="48" alt="Play" aria-hidden="true" />
+                        <div class="font-hkgrotesk font-extrabold  text-xl leading-tight mb-1">The Mental Matchup</div>
+                        <div class="font-hkgrotesk  font-medium text-sm opacity-80 mb-4">by Morgan’s Message</div>
+                        <a class=" underline hover:no-underline" width="48" height="48" alt="Play" target="_blank" href="https://open.spotify.com/show/5GoLkQD2BV7184NjqPo1k4?si=125c76234e7147ed&nd=1" aria-hidden="true">Listen Now</a>
                       </div>
                     </div>
-                  </router-link>
+                  </a>
                 </div>
                 <div class="swiper-slide h-auto flex flex-col max-w-[446px] group">
-                  <router-link to="/podcast">
+                  <a target="_blank" href="https://open.spotify.com/show/7vIoxgH4RLyxAYuYonK393?si=ad5c9421414b4e1a&nd=1">
                     <div class="group-odd:rotate-1 group-even:-rotate-1">
                       <div class="absolute inset-0 -z-10">
-                        <img class="w-full h-full object-cover rounded-3xl" src="../images/carousel-02.png" width="446" height="200" alt="Carousel 02" />
+                        <img class="opacity-80 w-full h-full object-cover rounded-3xl shadow-xl" src="../images/trm.jpeg" width="446" height="200" alt="Carousel 01" />
                       </div>
                       <div class="p-5 pb-14">
-                        <div class="font-hkgrotesk font-extrabold text-white text-xl leading-tight mb-1">When Should You Let People Pay You?</div>
-                        <div class="font-hkgrotesk text-white font-medium text-sm opacity-80 mb-4">Indie Stories · Jan 24 · Episode 234</div>
-                        <img src="../images/play.svg" width="48" height="48" alt="Play" aria-hidden="true" />
+                        <div class="font-hkgrotesk font-extrabold text-white text-xl leading-tight mb-1">The Revolutionized Mind</div>
+                        <div class="font-hkgrotesk text-white font-medium text-sm opacity-80 mb-4">Angelica Galluzzo</div>
+                        <a class=" text-white underline hover:no-underline" width="48" height="48" alt="Play" target="_blank" href="https://open.spotify.com/show/7vIoxgH4RLyxAYuYonK393?si=ad5c9421414b4e1a&nd=1" aria-hidden="true">Listen Now</a>
                       </div>
                     </div>
-                  </router-link>
+                  </a>
                 </div>
                 <div class="swiper-slide h-auto flex flex-col max-w-[446px] group">
-                  <router-link to="/podcast">
+                  <a target="_blank" href="https://www.kbev6.com/maketodaywelllived">
                     <div class="group-odd:rotate-1 group-even:-rotate-1">
                       <div class="absolute inset-0 -z-10">
-                        <img class="w-full h-full object-cover rounded-3xl" src="../images/carousel-03.png" width="446" height="200" alt="Carousel 03" />
+                        <img class="opacity-40 w-full h-full object-cover rounded-3xl shadow-xl" src="../images/maxresdefault.jpg" width="446" height="200" alt="Carousel 03" />
                       </div>
                       <div class="p-5 pb-14">
-                        <div class="font-hkgrotesk font-extrabold text-white text-xl leading-tight mb-1">Super Pumped (aka The Saturday Edition)</div>
-                        <div class="font-hkgrotesk text-white font-medium text-sm opacity-80 mb-4">Indie Stories · Jan 24 · Episode 234</div>
-                        <img src="../images/play.svg" width="48" height="48" alt="Play" aria-hidden="true" />
+                        <div class="font-hkgrotesk font-extrabold  text-xl leading-tight mb-1">Make Today Well Lived Podcast</div>
+                        <div class="font-hkgrotesk font-medium text-sm opacity-80 mb-4">KBEV 6</div>
+                        <a class="  underline hover:no-underline" width="48" height="48" alt="Play" target="_blank" href="https://www.kbev6.com/maketodaywelllived" aria-hidden="true">Listen Now</a>
                       </div>
                     </div>
-                  </router-link>
+                  </a>
                 </div>
                 <div class="swiper-slide h-auto flex flex-col max-w-[446px] group">
-                  <router-link to="/podcast">
+                  <a target="_blank" href="https://open.spotify.com/show/4SEzLCcOABrVIewbPbNyLP?si=de629d6585f54bba&nd=1">
                     <div class="group-odd:rotate-1 group-even:-rotate-1">
                       <div class="absolute inset-0 -z-10">
-                        <img class="w-full h-full object-cover rounded-3xl" src="../images/carousel-04.png" width="446" height="200" alt="Carousel 04" />
+                        <img class="opacity-90 w-full h-full object-cover rounded-3xl shadow-xl" src="../images/tad.jpeg" width="446" height="200" alt="Carousel 01" />
                       </div>
                       <div class="p-5 pb-14">
-                        <div class="font-hkgrotesk font-extrabold text-white text-xl leading-tight mb-1">Getting Into Public</div>
-                        <div class="font-hkgrotesk text-white font-medium text-sm opacity-80 mb-4">Indie Stories · Jan 24 · Episode 234</div>
-                        <img src="../images/play.svg" width="48" height="48" alt="Play" aria-hidden="true" />
+                        <div class="font-hkgrotesk font-extrabold text-white text-xl leading-tight mb-1">TAD VOICES</div>
+                        <div class="font-hkgrotesk text-white font-medium text-sm opacity-80 mb-4">TheTadProject</div>
+                        <a class=" text-white underline hover:no-underline" width="48" height="48" alt="Play" target="_blank" href="https://open.spotify.com/show/4SEzLCcOABrVIewbPbNyLP?si=de629d6585f54bba&nd=1" aria-hidden="true">Listen Now</a>
                       </div>
                     </div>
-                  </router-link>
+                  </a>
                 </div>
               </div>
             </div>
