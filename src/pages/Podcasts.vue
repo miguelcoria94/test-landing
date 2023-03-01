@@ -5,6 +5,7 @@
 
     <!-- Page content -->
     <main class="grow">
+      <AudioPlayer ref="audio" />
       <!-- Content -->
       <section class="pb-12 pt-16 md:pb-10 md:pt-40">
         <div class="max-w-6xl mx-auto px-4 sm:px-6">
@@ -15,10 +16,16 @@
                 <!-- Notes -->
                 <div class="md:flex justify-between items-center mb-8">
                   <h2
-                    class="text-3xl md:text-4xl font-hkgrotesk font-extrabold mb-4 md:mb-0"
+                    class="text-3xl md:text-4xl font-hkgrotesk font-extrabold mb-4 md:mb-0" v-if="items && items.length"
                   >
                     Latest Podcasts
                   </h2>
+                  <h2
+                    class="text-3xl md:text-4xl font-hkgrotesk font-extrabold mb-4 md:mb-0" v-else
+                  >
+                    Podcasts Coming Soon
+                  </h2>
+                  
                 </div>
 
                 <!-- Podcasts -->
