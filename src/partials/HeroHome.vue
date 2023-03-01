@@ -68,13 +68,13 @@
                   >Request Demo</a
                 >
               </div>
-              <div>
+              <!-- <div>
                 <a
                   class="btn text-white bg-mint-500 hover:bg-mint-600 w-full sm:w-auto sm:ml-4"
                   href="/get-involved"
                   >Get Involved</a
                 >
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

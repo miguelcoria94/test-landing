@@ -101,13 +101,13 @@
 
           <!-- Desktop sign in links -->
           <ul class="flex grow justify-end flex-wrap items-center">
-            <li>
+            <!-- <li>
               <router-link
                 to="/signin"
                 class="font-medium text-mint-500 hover:text-mint-600 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >Sign in</router-link
               >
-            </li>
+            </li> -->
             <li>
               <router-link
                 to="/request-demo"

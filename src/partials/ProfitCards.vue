@@ -28,8 +28,8 @@
                   <div class="md:min-w-[30rem]" data-aos="fade-left">
                     <h2 class="h3 md:text-4xl font-playfair-display mb-4">
                       <router-link
-                        class="text-slate-800 hover:underline hover:decoration-blue-100"
-                        to="/wall-of-love-single"
+                        class="text-slate-800 hover:underline hover:decoration-mint-400"
+                        to="/casestudies"
                         >Morgan’s Message
                       </router-link>
                     </h2>
@@ -58,9 +58,9 @@
                         class="font-playfair-display text-slate-500 italic"
                       >
                         TadHealth is helping us develop and expand our mental
-                        health programs that support our 1,010 student-athlete
-                        Ambassadors on 478 high school and collegiate campuses
-                        in 37 states, D.C. and Canada. Their team is dedicated
+                        health programs that support our 2,336 student-athlete
+                        Ambassadors on 915 high school and collegiate campuses
+                        in 42 states, D.C. and Canada. Their team is dedicated
                         to our mission to
                         <strong>Taking A Shot At Mental Health.</strong>
                       </blockquote>
