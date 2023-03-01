@@ -67,7 +67,7 @@
 
         <!-- Items -->
         <div
-          class="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-3 md:grid-cols-3"
+          class="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-5 md:grid-cols-5"
         >
           <!-- Item -->
           <div
@@ -103,6 +103,29 @@
               src="../images/bhhs.png"
             />
           </div>
+
+          <div
+            class="flex items-center justify-center py-2 col-span-1 md:col-auto"
+          >
+            <img
+              class="max-w-full fill-currentb-2 text-gray-400"
+              width="154"
+              height="24"
+              src="../images/gwgray.png"
+            />
+          </div>
+
+          <div
+            class="flex items-center justify-center py-2 col-span-1 md:col-auto"
+          >
+            <img
+              class="max-w-full fill-current text-gray-400"
+              width="154"
+              height="24"
+              src="../images/yorkgray.png"
+            />
+          </div>
+
 
           <!-- Item -->
           <!-- <div class="flex items-center justify-center py-2 col-span-2 md:col-auto">

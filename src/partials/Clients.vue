@@ -67,7 +67,7 @@
               class="max-w-full fill-current text-gray-400"
               width="164"
               height="54"
-              src="../images/mm.png"
+              src="../images/mmgray.png"
             />
           </div>
 
