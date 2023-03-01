@@ -114,7 +114,7 @@
             <p class="text-lg text-gray-400 text-center">
               We have a variety of services that allow you to proactively improve the mental well being of students, staff, and members. <a
                 class="text-mint-600 hover:text-mint-500 transition duration-150 ease-in-out"
-                href="/get-tadhealth"
+                href="/whytadhealth"
                 target="_blank"
                 >Learn More.</a
               >

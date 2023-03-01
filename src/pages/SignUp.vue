@@ -19,7 +19,7 @@
             <!-- Page header -->
             <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h1 class="h1">
-                Welcome. We exist to make entrepreneurship easier.
+                Welcome. We Exist To Make Wellness More Accessible.
               </h1>
             </div>
 

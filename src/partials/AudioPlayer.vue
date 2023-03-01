@@ -6,7 +6,7 @@
         <div class="relative">
           <!-- Background -->
           <div class="absolute inset-0 bg-gradient-to-br from-green-500 to-green-700 rounded-3xl -mx-20 -z-10 overflow-hidden" aria-hidden="true">
-            <img class="w-full h-full object-cover rounded-3xl" src="../images/WYM2.jpeg" width="1270" height="408" alt="Podcast image">
+            <img class="w-full h-full object-cover rounded-3xl" src="../images/WYM3.png" width="1270" height="408" alt="Podcast image">
           </div>
   
           <!-- Content -->

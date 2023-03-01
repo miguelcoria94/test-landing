@@ -22,7 +22,7 @@
     
        -->
       <GthFaq />
-      <GthBlog />
+      <News />
       <GthCta />
 
     </main>
@@ -41,7 +41,7 @@ import Creatives from '../partials/Creatives.vue'
 import GthPricing from '../partials/GthPricing.vue'
 import GthTestimonials from '../partials/GthTestimonials.vue'
 import GthFaq from '../partials/GthFaq.vue'
-import GthBlog from '../partials/GthBlog.vue'
+import News from '../partials/News.vue'
 import GthCta from '../partials/GthCta.vue'
 import GthFooter from '../partials/GthFooter.vue'
 
@@ -55,7 +55,7 @@ export default {
     GthPricing,
     GthTestimonials,
     GthFaq,
-    GthBlog,
+    News,
     GthFooter,
     GthCta
   },

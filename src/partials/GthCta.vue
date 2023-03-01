@@ -21,7 +21,7 @@
 
             <!-- CTA button -->
             <div class="shrink-0">
-              <router-link class="btn text-white bg-mint-500 hover:bg-mint-600 w-full shadow-sm" to="/signup">Join The Community</router-link>
+              <router-link class="btn text-white bg-mint-500 hover:bg-mint-600 w-full shadow-sm" to="/join-community">Join The Community</router-link>
             </div>
 
           </div>

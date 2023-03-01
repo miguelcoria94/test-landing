@@ -31,7 +31,7 @@
                   <span class="text-5xl font-bold">Free</span>
                 </div>
                 <div class="text-gray-400 mb-6">Explore tools, trends, tips and ways to add to your wellness programs. </div>
-                <router-link class="btn text-white bg-green-500 hover:bg-green-400 w-full shadow-sm" to="/signup">Join The Community</router-link>
+                <router-link class="btn text-white bg-green-500 hover:bg-green-400 w-full shadow-sm" to="/join-community">Join The Community</router-link>
               </div>
               <div class="font-medium text-gray-100 mb-4">Network Includes:</div>
               <ul class="text-gray-400 space-y-3 grow">

@@ -90,7 +90,7 @@
               <h3 class="h3 font-cabinet-grotesk text-4xl mb-4">More than a community</h3>
               <p class="text-xl text-gray-500 mb-6">Get access to monthly education webinars from leading experts in funding for schools, wellness, psychology, and education helping you learn about current trends, events, and curriculum you can put into practice. </p>
               <div>
-                <router-link class="btn text-white bg-green-500 hover:bg-green-400 shadow-sm" to="signup">Join The Community</router-link>
+                <router-link class="btn text-white bg-green-500 hover:bg-green-400 shadow-sm" to="/join-community">Join The Community</router-link>
               </div>
             </div>
           </div>

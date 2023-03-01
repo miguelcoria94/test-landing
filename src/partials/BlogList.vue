@@ -199,6 +199,56 @@
               </footer> -->
             </article>
 
+            <article class="flex flex-col h-full" data-aos="fade-up">
+              <header>
+                <router-link to="/blog-post" class="block mb-6">
+                  <figure
+                    class="relative h-0 pb-9/16 overflow-hidden rounded-sm"
+                  >
+                    <img
+                      class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
+                      src="../images/mm.png"
+                      width="352"
+                      height="198"
+                      alt="News 01"
+                    />
+                  </figure>
+                </router-link>
+               
+                <h3 class="h4 mb-2">
+                  <router-link
+                    to="/blog-post"
+                    class="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >Morgans Message (Coming Soon)</router-link
+                  >
+                </h3>
+              </header>
+              <p class="text-lg text-gray-400 grow">
+                TadHealth is helping us develop and expand our mental health programs that support our 2,336 student-athlete Ambassadors on 915 high school and collegiate campuses in 42 states, D.C. and Canada. Their team is dedicated to our mission to Taking A Shot At Mental Health.
+              </p>
+              <!-- <footer class="flex items-center mt-4">
+                <a href="#0">
+                  <img
+                    class="rounded-full shrink-0 mr-4"
+                    src="../images/news-author-01.jpg"
+                    width="40"
+                    height="40"
+                    alt="Author 01"
+                  />
+                </a>
+                <div class="font-medium">
+                  <a
+                    class="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    href="#0"
+                    >Anastasia Dan</a
+                  >
+                  <span class="text-gray-700"> - </span>
+                  <span class="text-gray-400">Jan 17, 2020</span>
+                </div>
+              </footer> -->
+            </article>
+
+
             <!-- 3nd article -->
             <article
               class="flex flex-col h-full"
@@ -251,55 +301,7 @@
                 </div>
               </footer> -->
             </article>
-            <article class="flex flex-col h-full" data-aos="fade-up">
-              <header>
-                <router-link to="/blog-post" class="block mb-6">
-                  <figure
-                    class="relative h-0 pb-9/16 overflow-hidden rounded-sm"
-                  >
-                    <img
-                      class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
-                      src="../images/mm.png"
-                      width="352"
-                      height="198"
-                      alt="News 01"
-                    />
-                  </figure>
-                </router-link>
-               
-                <h3 class="h4 mb-2">
-                  <router-link
-                    to="/blog-post"
-                    class="hover:text-gray-100 transition duration-150 ease-in-out"
-                    >Morgans Message (Coming Soon)</router-link
-                  >
-                </h3>
-              </header>
-              <p class="text-lg text-gray-400 grow">
-                TadHealth is helping us develop and expand our mental health programs that support our 2,336 student-athlete Ambassadors on 915 high school and collegiate campuses in 42 states, D.C. and Canada. Their team is dedicated to our mission to Taking A Shot At Mental Health.
-              </p>
-              <!-- <footer class="flex items-center mt-4">
-                <a href="#0">
-                  <img
-                    class="rounded-full shrink-0 mr-4"
-                    src="../images/news-author-01.jpg"
-                    width="40"
-                    height="40"
-                    alt="Author 01"
-                  />
-                </a>
-                <div class="font-medium">
-                  <a
-                    class="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
-                    >Anastasia Dan</a
-                  >
-                  <span class="text-gray-700"> - </span>
-                  <span class="text-gray-400">Jan 17, 2020</span>
-                </div>
-              </footer> -->
-            </article>
-
+            
            
           </div>
         </div>
