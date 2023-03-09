@@ -19,3 +19,7 @@ export function requestDemo(body) {
 export function getTad(body) {
   return axios.post("/get-tad/", body);
 }
+
+export function userSubscribe(body) {
+  return axios.post("/subscribe/", body);
+}

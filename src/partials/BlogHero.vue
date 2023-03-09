@@ -12,13 +12,11 @@
           <h1 class="h1 font-playfair-display mb-4">Stay Ahead of Mental Health Trends</h1>
           <p class="text-xl text-gray-400 mb-8">Learn more below about the latest trends, insights, and education about mental health from experts in the space. </p>
           <!-- Subscribe form -->
-          <form>
+          <form @submit.prevent="submit">
             <div class="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md">
-              <input type="email" class="form-input w-full bg-slate-100 border border-slate-200 focus:border-slate-300 text-white placeholder-slate-500 mb-2 sm:mb-0 sm:mr-2" placeholder="Your email" aria-label="Your email…" />
-              <button class="btn text-white bg-green-500 hover:bg-green-400" href="#0">Subscribe</button>
-            </div>
-            <!-- Success message -->
-            <!-- <p class="text-xs text-slate-500 mt-3 italic">Thanks for subscribing!</p> -->
+              <input v-model="email" type="email" class="form-input w-full bg-slate-100 border border-slate-200 focus:border-slate-300 placeholder-slate-500 mb-2 sm:mb-0 sm:mr-2" placeholder="Your email" aria-label="Your email…" />
+              <button class="btn text-white bg-green-500 hover:bg-green-400">Subscribe</button>
+            </div><p v-if="success" class="text-xs text-slate-500 mt-3 italic">Thanks for subscribing!</p> 
           </form>
         </div>
 
@@ -28,7 +26,41 @@
 </template>
 
 <script>
+import { userSubscribe } from "../api/users";
 export default {
   name: 'BlogHero',
+  data(){
+    return {
+      email: null,
+      success: false
+    }
+  },
+  methods: {
+    async submit(){
+      try {
+        if (!this.email) {
+          this.$toast.error(`Please enter your email to subscribe!`, {
+            position: "top-left",
+          });
+          return;
+        } else {
+          await userSubscribe({
+          type: 'email',
+          email: this.email,
+        });
+        this.email = ""
+        this.success = true
+        this.$toast.success(`You have subscribed to our updates!`, {
+            position: "top-right",
+          });
+          return 
+      } }
+      catch(e) {
+        this.$toast.error(`There was an error submitting your request!`, {
+          position: "top-left",
+        });
+      }}
+    
+  }
 }
 </script>

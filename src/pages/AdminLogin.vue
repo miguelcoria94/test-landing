@@ -20,7 +20,7 @@
               Admin Login 🔐
             </h1>
             <!-- Form -->
-            <form @submit.prevent="submit()">
+            <form @submit.prevent="submit">
               <div class="space-y-4">
                 <div>
                   <label class="block text-sm font-medium mb-1" for="email"

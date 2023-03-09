@@ -51,14 +51,14 @@
           </div>
 
           <!-- CTA form -->
-          <form class="w-full lg:w-1/2" @submit.prevent="submit()">
+          <form class="w-full lg:w-1/2" @submit.prevent="submit">
             <div
               class="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none"
             >
               <input
                   v-model="email"
                   type="email"
-                  class="w-full appearance-none bg-gray-900 border border-green-500 focus:border-green-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-gray-400"
+                  class="w-full appearance-none bg-gray-900 border border-green-500 focus:border-green-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 placeholder-gray-400"
                   placeholder="Your best email…"
                   aria-label="Your best email…"
               />
@@ -116,7 +116,8 @@ export default {
         await sendNewsLetterEmail({
           email: this.email,
         });
-        this.$toast.success(`We have received your message!`, {
+        this.email = ""
+        this.$toast.success(`We have signed you up!`, {
           position: "top-right",
         });
         this.$router.push("/");
