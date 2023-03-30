@@ -65,8 +65,9 @@
       <FeaturesHome />
       <Tabs />
       <Target />
-      <!-- <News /> -->
+      <News />
       <Clients2 />
+      
       <Newsletter />
       
     </main>
