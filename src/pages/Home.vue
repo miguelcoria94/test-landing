@@ -65,7 +65,8 @@
       <FeaturesHome />
       <Tabs />
       <Target />
-      <News />
+      <!-- <News /> -->
+      <Clients2 />
       <Newsletter />
       
     </main>
@@ -87,6 +88,7 @@ import Target from "./../partials/Target.vue";
 import Newsletter from "./../partials/Newsletter.vue";
 import Footer from "./../partials/Footer.vue";
 import News from "./../partials/News.vue"
+import Clients2 from "./../partials/Clients2.vue"
 
 export default {
   name: "Home",
@@ -101,7 +103,8 @@ export default {
     Newsletter,
     Footer,
     Head,
-    News
+    News,
+    Clients2
   },
 };
 </script>
