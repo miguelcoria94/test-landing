@@ -44,7 +44,7 @@
             <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="../images/gwww.png" alt="Client 10" />
           </div>
           <div class="swiper-slide !h-28 !w-28 rounded-2xl flex items-center justify-center group">
-            <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="../images/hemet.png" alt="Client 11" />
+            <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="../images/nais.png" alt="Client 11" />
           </div>
         </div>
       </div>

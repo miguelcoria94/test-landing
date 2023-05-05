@@ -8,8 +8,14 @@
           <div class="md:col-span-4 lg:col-span-5">
             <div class="mb-2">
               <!-- Logo -->
-              <router-link to="/" class="inline-block" aria-label="Cruip">
-                <img src="/src/images/tadheart.png" alt="" class="h-6" />
+              <router-link to="/" class="inline-block" aria-label="tadhealth-logo">
+                <img src="/src/images/tadheart.png" alt="" class="h-7" />
+              </router-link>
+              <router-link to="/" class="inline-block ml-3" aria-label="hippa-logo">
+                <img src="/src/images/hipaa.png" alt="" class="h-6" />
+              </router-link>
+              <router-link to="/" class="inline-block ml-3" aria-label="hippa-logo">
+                <img src="/src/images/ferpa.png" alt="" class="h-6" />
               </router-link>
             </div>
             <div>

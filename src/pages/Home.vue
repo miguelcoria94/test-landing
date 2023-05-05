@@ -61,12 +61,14 @@
 
       <!-- Page sections -->
       <HeroHome />
+      
       <Process />
+      <Clients2 />
       <FeaturesHome />
       <Tabs />
       <Target />
       <News />
-      <Clients2 />
+      
       
       <Newsletter />
       

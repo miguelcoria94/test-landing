@@ -8,7 +8,7 @@
     <main class="grow">
       
       <TargetTwo />
-      
+      <Cta />
       <EducationFeatureTwo />
       
       <!-- <EducationFeature /> -->
@@ -34,6 +34,7 @@ import EducationFeatureTwo from './../partials/EducationFeatureTwo.vue'
 import CompanyLogos from './../partials/CompanyLogos.vue'
 import CtaEducation from './../partials/CtaEducation.vue'
 import Pricing from "./../partials/Pricing.vue"
+import Cta from './../partials/Cta.vue'
 
 export default {
   name: 'education',
@@ -45,7 +46,8 @@ export default {
     EducationFeatureTwo,
     CompanyLogos,
     CtaEducation,
-    Pricing
+    Pricing,
+    Cta
   },
 };
 </script>
