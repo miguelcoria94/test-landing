@@ -56,7 +56,7 @@ export function getSingleArticle(id) {
 }
 
 export function deleteArticle(id) {
-  return axios.post(`/articles/${id}`,{}, authHeaders());
+  return axios.delete(`/articles/${id}`,{}, authHeaders());
 }
 
 
