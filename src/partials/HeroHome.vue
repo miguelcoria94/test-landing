@@ -34,11 +34,11 @@
 
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <!-- Hero content -->
-      <div class="pt-32 pb-8 md:pt-40 md:pb-8">
+      <div class="pt-12 pb-8 md:pt-20 md:pb-8">
         <!-- Section header -->
         <div class="text-center pb-6 md:pb-1">
           <h1
-            class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+            class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-10"
             data-aos="zoom-y-out"
           >
             Connected Mental Health
