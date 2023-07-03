@@ -59,12 +59,10 @@
                 stroke-linecap="square"
               />
             </svg>
-            <h4 class="h4 mb-2">
-              <span class="text-gray-300">1</span>. Source Professionals
-            </h4>
+            <h4 class="h4 mb-2">Safety</h4>
             <p class="text-lg text-gray-400 text-center">
-              See how your organization can implement a custom mental health
-              resource platform.
+              Our response technology provides a quick and effective way to
+              mitigate crisis situations for any organization.
             </p>
           </div>
 
@@ -111,12 +109,10 @@
                 />
               </g>
             </svg>
-            <h4 class="h4 mb-2">
-              <span class="text-gray-300">2</span>. Mitigate Crisis Situations
-            </h4>
+            <h4 class="h4 mb-2">Professional Management</h4>
             <p class="text-lg text-gray-400 text-center">
-              We have a variety of services that allow you to proactively
-              improve the mental well being of students, staff, and members.
+              Don't waste any more time searching for new professionals or
+              coordinating existing ones. Let our platform do the work for you.
               <a
                 class="text-mint-600 hover:text-mint-500 transition duration-150 ease-in-out"
                 href="/whytadhealth"
@@ -158,12 +154,10 @@
                 stroke-linecap="square"
               />
             </svg>
-            <h4 class="h4 mb-2">
-              <span class="text-gray-300">3</span>. Data Driven Outcomes
-            </h4>
+            <h4 class="h4 mb-2">Data Driven Resources</h4>
             <p class="text-lg text-gray-400 text-center">
-              Within hours, you’ll have the digital infrastructure to activate
-              mental health resources for your organization.
+              Make data-driven decisions that can improve the mental health and
+              performance of your organization’s population.
             </p>
           </div>
         </div>

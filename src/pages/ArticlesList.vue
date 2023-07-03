@@ -2,7 +2,7 @@
   <Head>
     <title>TadHealth | Manage Articles</title>
   </Head>
-  <div class="flex flex-col min-h-screen overflow-hidden">
+  <div class="flex flex-col min-h-screen ">
     <!-- Site header -->
     <HeaderDash />
 
