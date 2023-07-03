@@ -63,10 +63,10 @@
       <HeroHome />
       
       <Process />
-      <Clients2 />
-      <FeaturesHome />
-      <Tabs />
-      <Target />
+      <!-- <Clients2 /> -->
+      <!-- <FeaturesHome /> -->
+      <!-- <Tabs /> -->
+      <!-- <Target /> -->
       <News />
       
       
