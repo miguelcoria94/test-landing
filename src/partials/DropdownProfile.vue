@@ -1,5 +1,5 @@
 <template>
-  <div class="relative inline-flex w-50">
+  <div class="relative inline-flex w-60">
     <button
       ref="trigger"
       class="inline-flex justify-center items-center group"

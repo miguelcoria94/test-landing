@@ -6,7 +6,11 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link to="/" class="block" aria-label="Cruip">
-            <img class="h-7" src="/src/images/tad-logo.png" alt="tadhealth-nav-logo">
+            <img
+              class="h-7"
+              src="/src/images/tad-logo.png"
+              alt="tadhealth-nav-logo"
+            />
           </router-link>
         </div>
 
@@ -14,19 +18,51 @@
         <nav class="hidden md:flex md:grow">
           <!-- Desktop menu links -->
           <ul class="flex grow justify-end flex-wrap items-center">
+            <Dropdown title="Product" >
+              <li>
+                <router-link
+                  to="/platform"
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
+                >
+                  TadHealth Platform
+                </router-link>
+              </li>
+              <li>
+                <router-link
+                  to="/safety"
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
+                  >Safety</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  to="/professional-management"
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
+                  >Professional Management</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  to="/resource-delivery"
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
+                  >Resource Delivery</router-link
+                >
+              </li>
+            </Dropdown>
             <Dropdown title="Our Solutions">
               <li>
                 <router-link
                   to="/education"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-university header-icon"></i> For Education </router-link
-                >
+                  ><i class="las la-university header-icon"></i> For Education
+                </router-link>
               </li>
               <li>
                 <router-link
                   to="/organizations"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
-                  ><i class="las la-building header-icon"></i> For Organizations</router-link
+                  ><i class="las la-building header-icon"></i> For
+                  Organizations</router-link
                 >
               </li>
               <!-- <li>
@@ -37,7 +73,7 @@
                 >
               </li> -->
             </Dropdown>
-            
+
             <!-- <li>
               <router-link
                 to="/get-involved"
@@ -72,21 +108,24 @@
                 <router-link
                   to="/blog"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-book-reader header-icon"></i>Blog</router-link
+                  ><i class="las la-book-reader header-icon"></i
+                  >Blog</router-link
                 >
               </li>
               <li>
                 <router-link
                   to="/podcasts"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-microphone header-icon"></i> Podcast</router-link
+                  ><i class="las la-microphone header-icon"></i>
+                  Podcast</router-link
                 >
               </li>
               <li>
                 <router-link
                   to="/casestudies"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-flask header-icon"></i> Case Studies</router-link
+                  ><i class="las la-flask header-icon"></i> Case
+                  Studies</router-link
                 >
               </li>
               <!-- <li>
@@ -160,10 +199,10 @@
                   >Home</router-link
                 >
               </li>
-              
+
               <li>
                 <router-link
-                to="/whytadhealth"
+                  to="/whytadhealth"
                   class="flex text-gray-300 hover:text-gray-200 py-2"
                   >Why TadHealth?</router-link
                 >
@@ -291,7 +330,7 @@ export default {
 <style scoped>
 .header-icon {
   font-size: 1rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 header {
