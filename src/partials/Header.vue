@@ -18,7 +18,7 @@
         <nav class="hidden md:flex md:grow">
           <!-- Desktop menu links -->
           <ul class="flex grow justify-end flex-wrap items-center">
-            <Dropdown title="Product" >
+            <Dropdown title="Product">
               <li>
                 <router-link
                   to="/platform"

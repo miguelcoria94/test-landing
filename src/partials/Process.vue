@@ -63,6 +63,12 @@
             <p class="text-lg text-gray-400 text-center">
               Our response technology provides a quick and effective way to
               mitigate crisis situations for any organization.
+              <a
+                class="text-mint-600 hover:text-mint-500 transition duration-150 ease-in-out"
+                href="/whytadhealth"
+                target="_blank"
+                >Learn More.</a
+              >
             </p>
           </div>
 

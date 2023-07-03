@@ -34,7 +34,7 @@
     >
       <ul
         v-show="dropdownOpen"
-        class="origin-top-right absolute top-full right-0 w-40 bg-white shadow-md py-2 ml-4 rounded-sm"
+        class="origin-top-right absolute top-full right-0  bg-white shadow-md py-2 ml-4 rounded-sm dropdown"
       >
         <slot />
       </ul>
@@ -58,3 +58,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.dropdown {
+  width: 13rem;
+}
+</style>
