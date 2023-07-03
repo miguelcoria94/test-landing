@@ -41,12 +41,17 @@
             class="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
             data-aos="zoom-y-out"
           >
-            Mental Health,
-            <span
-              class="bg-clip-text text-transparent bg-gradient-to-r from-mint-400 to-mint-600"
-            >
-              Managed.</span
-            >
+            Connected Mental Health
+            <div class="scroller">
+              <span
+                class="bg-clip-text text-transparent bg-gradient-to-r from-mint-400 to-mint-600"
+              >
+              Access.<br/>
+              Safety.<br/>
+              Resources.<br/>
+              Professionals.
+              </span>
+            </div>
           </h1>
           <div class="max-w-3xl mx-auto">
             <p
@@ -54,28 +59,8 @@
               data-aos="zoom-y-out"
               data-aos-delay="150"
             >
-              Less Steps. Better Care.
+              Fewer Steps. Better Care.
             </p>
-            <div
-              class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
-              data-aos="zoom-y-out"
-              data-aos-delay="300"
-            >
-              <div>
-                <a
-                  class="btn text-white bg-mint-500 hover:bg-mint-600 w-full mb-4 sm:w-auto sm:mb-0"
-                  href="/request-demo"
-                  >Request Demo</a
-                >
-              </div>
-              <!-- <div>
-                <a
-                  class="btn text-white bg-mint-500 hover:bg-mint-600 w-full sm:w-auto sm:ml-4"
-                  href="/get-involved"
-                  >Get Involved</a
-                >
-              </div> -->
-            </div>
           </div>
         </div>
       </div>
@@ -160,3 +145,55 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+a {
+  text-decoration: none;
+  font-weight: bold;
+  background: linear-gradient(
+    135deg,
+    rgba(43, 171, 217, 1) 0%,
+    rgba(0, 130, 200, 1) 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+
+/* Scroller styling */
+.scroller {
+  height: 1.2em;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.scroller > span {
+  position: absolute;
+  top: 0;
+  animation: slide 7s infinite;
+  font-weight: bold;
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+
+@media (max-width: 560px) {
+  .scroller {
+    right : 0%;
+  }
+}
+</style>

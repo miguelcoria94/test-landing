@@ -4,14 +4,16 @@
       <div class="pt-10 pb-12 md:pt-16 md:pb-20">
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2 mb-4" data-aos="fade-up">Built exclusively for your organization</h2>
-          <p
+          <h2 class="h2 mb-4" data-aos="fade-up">
+            Bring unparalleled mental health experiences through:
+          </h2>
+          <!-- <p
             class="text-xl text-gray-400"
             data-aos="fade-up"
             data-aos-delay="200"
           >
             Simplify access to mental health resources. 
-          </p>
+          </p> -->
         </div>
 
         <!-- Items -->
@@ -58,10 +60,11 @@
               />
             </svg>
             <h4 class="h4 mb-2">
-              <span class="text-gray-300">1</span>. Request Demo
+              <span class="text-gray-300">1</span>. Source Professionals
             </h4>
             <p class="text-lg text-gray-400 text-center">
-              See how your organization can implement a custom mental health resource platform.
+              See how your organization can implement a custom mental health
+              resource platform.
             </p>
           </div>
 
@@ -109,10 +112,12 @@
               </g>
             </svg>
             <h4 class="h4 mb-2">
-              <span class="text-gray-300">2</span>. Select A Package
+              <span class="text-gray-300">2</span>. Mitigate Crisis Situations
             </h4>
             <p class="text-lg text-gray-400 text-center">
-              We have a variety of services that allow you to proactively improve the mental well being of students, staff, and members. <a
+              We have a variety of services that allow you to proactively
+              improve the mental well being of students, staff, and members.
+              <a
                 class="text-mint-600 hover:text-mint-500 transition duration-150 ease-in-out"
                 href="/whytadhealth"
                 target="_blank"
@@ -154,16 +159,29 @@
               />
             </svg>
             <h4 class="h4 mb-2">
-              <span class="text-gray-300">3</span>. Activate Platform
+              <span class="text-gray-300">3</span>. Data Driven Outcomes
             </h4>
             <p class="text-lg text-gray-400 text-center">
-              Within hours, you’ll have the digital infrastructure to activate mental health resources for your organization. 
+              Within hours, you’ll have the digital infrastructure to activate
+              mental health resources for your organization.
             </p>
           </div>
         </div>
       </div>
+      <div
+        class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+        data-aos="zoom-y-out"
+        data-aos-delay="300"
+      >
+        <div>
+          <a
+            class="btn text-white bg-mint-500 hover:bg-mint-600 w-full mb-4 sm:w-auto sm:mb-0"
+            href="/request-demo"
+            >Request Demo</a
+          >
+        </div>
+      </div>
     </div>
-    
   </section>
 </template>
 

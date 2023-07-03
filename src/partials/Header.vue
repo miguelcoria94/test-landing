@@ -1,5 +1,5 @@
 <template>
-  <header class="absolute w-full z-30">
+  <header class="w-full z-30 sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
       <div class="flex items-center justify-between h-20">
         <!-- Site branding -->
@@ -292,5 +292,9 @@ export default {
 .header-icon {
   font-size: 1rem;
   margin-right: .5rem;
+}
+
+header {
+  background-color: #f5f5fd;
 }
 </style>
