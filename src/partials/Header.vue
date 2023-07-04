@@ -24,6 +24,7 @@
                   to="/platform"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
                 >
+                  <i class="las la-window-restore"></i>
                   TadHealth Platform
                 </router-link>
               </li>
@@ -31,21 +32,22 @@
                 <router-link
                   to="/safety"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
-                  >Safety</router-link
+                  ><i class="las la-user-shield"></i> Safety</router-link
                 >
               </li>
               <li>
                 <router-link
                   to="/professional-management"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
-                  >Professional Management</router-link
+                  ><i class="las la-id-card-alt"></i> Professional
+                  Management</router-link
                 >
               </li>
               <li>
                 <router-link
                   to="/resource-delivery"
                   class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight w-80"
-                  >Resource Delivery</router-link
+                  ><i class="las la-stream"></i> Resource Delivery</router-link
                 >
               </li>
             </Dropdown>
@@ -74,36 +76,46 @@
               </li> -->
             </Dropdown>
 
-            <!-- <li>
-              <router-link
-                to="/get-involved"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Get Involved</router-link
-              >
-            </li> -->
-            <!-- <li>
-              <router-link
-                to="/blog"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Request A Demo</router-link
-              >
-            </li> -->
-            <li>
-              <router-link
-                to="/whytadhealth"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >Why TadHealth?</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/about"
-                class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >About</router-link
-              >
-            </li>
             <!-- 1st level: hover -->
-            <Dropdown title="Resources">
+            <Dropdown title="Partners">
+              <li>
+                <router-link
+                  to="/get-involved"
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
+                  ><i class="las la-handshake"></i> Become a
+                  Partner</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  to="/get-involved"
+                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
+                  ><i class="las la-users"></i> TadHealth Partners</router-link
+                >
+              </li>
+            </Dropdown>
+            <Dropdown title="Company">
+              <li>
+                <router-link
+                  to="/about"
+                  class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  >About</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  to="/whytadhealth"
+                  class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  >Why TadHealth?</router-link
+                >
+              </li>
+              <li>
+                <router-link
+                  to="/youthadvisorboard"
+                  class="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  >Youth Advisory Board</router-link
+                >
+              </li>
               <li>
                 <router-link
                   to="/blog"
@@ -128,13 +140,6 @@
                   Studies</router-link
                 >
               </li>
-              <!-- <li>
-                <router-link
-                  to="/enterprise"
-                  class="font-medium text-sm text-gray-400 hover:text-green-600 flex py-2 px-4 leading-tight"
-                  ><i class="las la-building header-icon"></i> Enterprise </router-link
-                >
-              </li> -->
             </Dropdown>
           </ul>
 
@@ -213,6 +218,58 @@
                   class="flex text-gray-300 hover:text-gray-200 py-2"
                   >About</router-link
                 >
+              </li>
+              <li class="py-2 my-2 border-t border-gray-700">
+                <span class="flex text-gray-300 py-2">Products</span>
+                <ul class="pl-4">
+                  <li>
+                    <router-link
+                      to="/platform"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >TadHealth Platform</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/safety"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >Safety</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/professional-management"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >Professional Management</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/resource-delivery"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >Resource Delivery</router-link
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="py-2 my-2 border-t border-gray-700">
+                <span class="flex text-gray-300 py-2">Partners</span>
+                <ul class="pl-4">
+                  <li>
+                    <router-link
+                      to="/get-involved"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >Become a Partner</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link
+                      to="/get-involved"
+                      class="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
+                      >TadHealth Partners</router-link
+                    >
+                  </li>
+                </ul>
               </li>
               <li class="py-2 my-2 border-t border-gray-700">
                 <span class="flex text-gray-300 py-2">Our Solutions</span>
@@ -335,5 +392,12 @@ export default {
 
 header {
   background-color: #f5f5fd;
+}
+
+.las {
+  position: relative !important;
+  top: 1.5px;
+  margin-right: 5px !important;
+  display: inline-block;
 }
 </style>
