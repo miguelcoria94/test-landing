@@ -40,10 +40,6 @@
                   <label class="block text-sm font-medium mb-1" for="org">Organization Name <span class="text-rose-500">*</span></label>
                   <input v-model="organizationName" id="org" class="form-input py-2 w-full" type="text" required />
                 </div>
-                <div>
-                  <label class="block text-sm font-medium mb-1" for="orgurl">Organization URL <span class="text-rose-500">*</span></label>
-                  <input v-model="organizationUrl" id="orgurl" class="form-input py-2 w-full" type="text" required />
-                </div>
                 
                 <div>
                   <label class="block text-sm font-medium mb-1" for="number">Phone Number <span class="text-rose-500">*</span></label>
@@ -145,7 +141,6 @@ export default {
       lastName: null,
       email: null,
       organizationName: null,
-      organizationUrl: null,
       phoneNumber: null,
       ref: null,
       siteKey: import.meta.env.VITE_RECAPTCHA_SITE_KEY_DEV,
@@ -169,7 +164,6 @@ export default {
           !this.lastName ||
           !this.email ||
           !this.organizationName ||
-          !this.organizationUrl ||
           !this.phoneNumber ||
           !this.ref
         ) {
@@ -190,10 +184,15 @@ export default {
           last_name: this.lastName,
           email: this.email,
           organization_name: this.organizationName,
-          organization_url: this.organizationUrl,
           phone_number: this.phoneNumber,
           hear_about_us: this.ref,
         });
+
+        this.$router.push({ name: "Home" });
+        this.$toast.success(`Your message has been sent!`, {
+          position: "top-right",
+        });
+
       } catch (e) {
         this.$toast.error(`There was an error submitting your message!`, {
           position: "top-right",
